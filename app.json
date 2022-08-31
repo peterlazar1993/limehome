@@ -9,8 +9,6 @@
     "jsEngine": "hermes",
     "backgroundColor": "#f7f1e9",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
       "backgroundColor": "#f7f1e9"
     },
     "updates": {

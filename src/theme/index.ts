@@ -4,7 +4,8 @@ import { palette } from './palette';
 
 const theme = createTheme({
   colors: {
-    mainBackground: palette['orange-200'],
+    background: palette['orange-200'],
+    'decorative-one-surface': palette['grassGreen-500'],
   },
   spacing: {
     s: 8,
