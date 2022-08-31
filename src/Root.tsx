@@ -18,27 +18,48 @@ function Root() {
   }, 3000);
 
   return (
-    <SafeAreaView style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <SafeAreaView
+      style={{
+        flex: 1,
+      }}>
       <BackgroundColor color={colors.background} />
 
       <AnimatePresence exitBeforeEnter>
         {isAppReady ? (
           <MotiView
             key={2}
-            from={{ scale: 0.5, opacity: 0.2 }}
-            animate={{ scale: 1, opacity: 1 }}
-            exit={{
-              scale: 0.5,
-              opacity: 0,
-            }}
             style={{
-              width: 100,
-              aspectRatio: 1,
+              flex: 1,
+              alignItems: 'center',
             }}>
-            <Logo />
+            <MotiView
+              from={{ scale: 0.5, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{
+                scale: 0.5,
+                opacity: 0,
+              }}
+              transition={{
+                duration: 600,
+                type: 'timing',
+              }}
+              style={{
+                width: 70,
+                aspectRatio: 1,
+              }}>
+              <Logo />
+            </MotiView>
           </MotiView>
         ) : (
-          <SplashScreen key={1} />
+          <MotiView
+            key={1}
+            style={{
+              flex: 1,
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}>
+            <SplashScreen />
+          </MotiView>
         )}
       </AnimatePresence>
     </SafeAreaView>
