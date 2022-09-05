@@ -10,11 +10,10 @@ export function SplashScreen() {
       style={{
         width: '60%',
       }}
-      from={{ translateY: 10, opacity: 1 }}
-      animate={{ translateY: -10, opacity: 1 }}
+      from={{ translateY: 10 }}
+      animate={{ translateY: -10 }}
       exit={{
-        translateY: windowHeight * 0.7,
-        opacity: 0.8,
+        translateY: windowHeight,
       }}
       transition={{
         type: 'timing',
