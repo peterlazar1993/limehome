@@ -1,0 +1,2566 @@
+{
+    "success": true,
+    "message": "Property request successful",
+    "payload": [
+        {
+            "id": 145,
+            "external_id": "NLS34",
+            "external_code": "NLS34",
+            "city_id": 55,
+            "distance": 2.1383561749262587,
+            "listing_title": {
+                "de": "trier",
+                "en": "trier",
+                "es": "tréveris",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "nikolaus-leis-str.",
+                "en": "nikolaus-leis-str.",
+                "es": "nikolaus-leis-str."
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 129,
+            "external_id": "VER2",
+            "external_code": "VER2",
+            "city_id": 27,
+            "distance": 0.4408815508237934,
+            "listing_title": {
+                "de": "aachen",
+                "en": "aachen",
+                "es": "aquisgrán",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "vereinsstraße",
+                "en": "vereinsstraße",
+                "es": "vereinsstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3084,
+                    "position": 0,
+                    "property_id": 129,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/129/9c245322-9c0a-4571-923d-3b47051ebcf7.jpg"
+                }
+            ]
+        },
+        {
+            "id": 165,
+            "external_id": "LEB6",
+            "external_code": "LEB6",
+            "city_id": 32,
+            "distance": 4.8509150663551175,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "leberstraße 6",
+                "en": "leberstraße 6",
+                "es": "leberstraße 6"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4317,
+                    "position": 0,
+                    "property_id": 165,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/165/b6ea9ef7-606a-4bb6-8132-cd73b9f5137e.jpg"
+                }
+            ]
+        },
+        {
+            "id": 143,
+            "external_id": "HOY26",
+            "external_code": "HOY26",
+            "city_id": 54,
+            "distance": 1.782713047899814,
+            "listing_title": {
+                "de": "dresden",
+                "en": "dresden",
+                "es": "dresde",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "hoyerswerdaerstr. ",
+                "en": "hoyerswerdaerstr.",
+                "es": "hoyerswerdaerstr. "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4168,
+                    "position": 0,
+                    "property_id": 143,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/143/e8d4098e-3028-41c6-b39b-c4e71792b850.jpg"
+                }
+            ]
+        },
+        {
+            "id": 203,
+            "external_id": "CSA10",
+            "external_code": "CSA10",
+            "city_id": 79,
+            "distance": 0.4008399540875355,
+            "listing_title": {
+                "de": "granada",
+                "en": "granada",
+                "es": "granada"
+            },
+            "listing_street": {
+                "de": "calle sta. ana ",
+                "en": "calle sta. ana ",
+                "es": "calle sta. ana "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3706,
+                    "position": 0,
+                    "property_id": 203,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/203/a67aab04-266e-400b-a491-f43f1b503daa.jpg"
+                }
+            ]
+        },
+        {
+            "id": 151,
+            "external_id": "OBE4",
+            "external_code": "OBE4",
+            "city_id": 57,
+            "distance": 0.6241198643074939,
+            "listing_title": {
+                "de": "villach",
+                "en": "villach",
+                "es": "villach"
+            },
+            "listing_street": {
+                "de": "oberer kirchenplatz",
+                "en": "oberer kirchenplatz",
+                "es": "oberer kirchenplatz"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 1633,
+                    "position": 0,
+                    "property_id": 151,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/151/5651e087-d596-4af6-b2f9-afa903b3a66e.jpg"
+                }
+            ]
+        },
+        {
+            "id": 228,
+            "external_id": "DRC41",
+            "external_code": "DRC41",
+            "city_id": 82,
+            "distance": 2.4069577525833905,
+            "listing_title": {
+                "de": "madrid",
+                "en": "madrid",
+                "es": "madrid",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "calle de don ramón de la cruz ",
+                "en": "calle de don ramón de la cruz ",
+                "es": "calle de don ramón de la cruz ",
+                "nl": null
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6247,
+                    "position": 1,
+                    "property_id": 228,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/228/970f8032-2923-4011-b144-cf024df237a9.jpg"
+                }
+            ]
+        },
+        {
+            "id": 116,
+            "external_id": "KIB34",
+            "external_code": "KIB34",
+            "city_id": 37,
+            "distance": 0.3245321794956562,
+            "listing_title": {
+                "de": "essen",
+                "en": "essen",
+                "es": "essen"
+            },
+            "listing_street": {
+                "de": "kibbelstraße",
+                "en": "kibbelstraße ",
+                "es": "kibbelstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3391,
+                    "position": 0,
+                    "property_id": 116,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/116/d5b252ae-a7e6-4f1f-b6de-64acca2c427a.jpg"
+                }
+            ]
+        },
+        {
+            "id": 209,
+            "external_id": "MA25",
+            "external_code": "MA25",
+            "city_id": 82,
+            "distance": 0.7620275502868217,
+            "listing_title": {
+                "de": "madrid",
+                "en": "madrid",
+                "es": "madrid"
+            },
+            "listing_street": {
+                "de": "calle de la madera ",
+                "en": "calle de la madera ",
+                "es": "calle de la madera "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6494,
+                    "position": 1,
+                    "property_id": 209,
+                    "is_portrait": true,
+                    "url": "https://limehome.imgix.net/properties/209/fdea5cd8-d884-4fb9-beaf-325d28725761.jpg"
+                }
+            ]
+        },
+        {
+            "id": 184,
+            "external_id": "OLB18",
+            "external_code": "OLB18",
+            "city_id": 45,
+            "distance": 7.113843837039397,
+            "listing_title": {
+                "de": "münchen",
+                "en": "munich",
+                "es": "munich",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "olschewskibogen ",
+                "en": "olschewskibogen ",
+                "es": "olschewskibogen "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6408,
+                    "position": 0,
+                    "property_id": 184,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/184/e6b5e8c8-ce1f-4078-be0f-4ab40783e783.jpg"
+                }
+            ]
+        },
+        {
+            "id": 294,
+            "external_id": "FOM36",
+            "external_code": "FOM36",
+            "city_id": 82,
+            "distance": 0.8477683006414773,
+            "listing_title": {
+                "de": "madrid",
+                "en": "madrid",
+                "es": "madrid",
+                "nl": "madrid"
+            },
+            "listing_street": {
+                "de": "calle fomento",
+                "en": "calle fomento",
+                "es": "calle fomento",
+                "nl": "calle fomento"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 225,
+            "external_id": "KES19",
+            "external_code": "KES19",
+            "city_id": 44,
+            "distance": 0.3009785004719852,
+            "listing_title": {
+                "de": "bamberg",
+                "en": "bamberg",
+                "es": "bamberg"
+            },
+            "listing_street": {
+                "de": "keßlerstraße ",
+                "en": "keßlerstraße ",
+                "es": "keßlerstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5998,
+                    "position": 0,
+                    "property_id": 225,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/225/68b1dcce-7948-4538-a1d7-3dc99b3e3aaa.jpg"
+                }
+            ]
+        },
+        {
+            "id": 297,
+            "external_id": "VEG2",
+            "external_code": "VEG2",
+            "city_id": 112,
+            "distance": 0.2029049608331414,
+            "listing_title": {
+                "de": "haro",
+                "en": "haro",
+                "es": "haro",
+                "nl": "haro"
+            },
+            "listing_street": {
+                "de": "calle de la vega",
+                "en": "calle de la vega",
+                "es": "calle de la vega",
+                "nl": "calle de la vega"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 181,
+            "external_id": "FRI4",
+            "external_code": "FRI4",
+            "city_id": 41,
+            "distance": 0.4417806976263446,
+            "listing_title": {
+                "de": "linz",
+                "en": "linz",
+                "es": "linz",
+                "nl": "linz"
+            },
+            "listing_street": {
+                "de": "friedrichstraße",
+                "en": "friedrichstraße",
+                "es": "friedrichstraße",
+                "nl": "friedrichstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6717,
+                    "position": 0,
+                    "property_id": 181,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/181/72c7598d-f847-4769-806d-7b859feb2631.jpg"
+                }
+            ]
+        },
+        {
+            "id": 245,
+            "external_id": "KET27",
+            "external_code": "KET27",
+            "city_id": 37,
+            "distance": 0.12285371187158457,
+            "listing_title": {
+                "de": "essen",
+                "en": "essen",
+                "es": "essen",
+                "nl": "essen"
+            },
+            "listing_street": {
+                "de": "kettwiger straße",
+                "en": "kettwiger straße",
+                "es": "kettwiger straße",
+                "nl": "kettwiger straße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 7206,
+                    "position": 0,
+                    "property_id": 245,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/245/4f560482-6ddc-4632-ac9e-708cb39c88ab.jpg"
+                }
+            ]
+        },
+        {
+            "id": 96,
+            "external_id": "AQ2",
+            "external_code": "AQ2",
+            "city_id": 30,
+            "distance": 0.4043757328515891,
+            "listing_title": {
+                "de": "montabaur",
+                "en": "montabaur",
+                "es": "montabaur"
+            },
+            "listing_street": {
+                "de": "am quendelberg",
+                "en": "am quendelberg",
+                "es": "am quendelberg"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6537,
+                    "position": 0,
+                    "property_id": 96,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/96/3762f856-fce1-454c-b71b-b4f00b06e1c4.jpg"
+                }
+            ]
+        },
+        {
+            "id": 190,
+            "external_id": "ASS30",
+            "external_code": "ASS30",
+            "city_id": 71,
+            "distance": 0.21594918972013513,
+            "listing_title": {
+                "de": "salzgitter",
+                "en": "salzgitter",
+                "es": "salzgitter",
+                "nl": "salzgitter"
+            },
+            "listing_street": {
+                "de": "albert-schweitzer-straße",
+                "en": "albert-schweitzer-straße",
+                "es": "albert-schweitzer-straße",
+                "nl": "albert-schweitzer-straße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 201,
+            "external_id": "AWP4",
+            "external_code": "AWP4",
+            "city_id": 77,
+            "distance": 1.4077024843530066,
+            "listing_title": {
+                "de": "potsdam",
+                "en": "potsdam",
+                "es": "potsdam"
+            },
+            "listing_street": {
+                "de": "annemarie-wolff-platz ",
+                "en": "annemarie-wolff-platz ",
+                "es": "annemarie-wolff-platz "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 2912,
+                    "position": 0,
+                    "property_id": 201,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/201/a52b450c-6a3e-43d6-9c53-5b37e12f72e6.jpg"
+                }
+            ]
+        },
+        {
+            "id": 162,
+            "external_id": "MAL25",
+            "external_code": "MAL25",
+            "city_id": 32,
+            "distance": 3.4520394128199907,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "malmöer str. ",
+                "en": "malmöer str. ",
+                "es": "malmöer str. "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6403,
+                    "position": 0,
+                    "property_id": 162,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/162/f23ec422-b5bb-48d5-8bbb-e8eaba0bb165.jpg"
+                }
+            ]
+        },
+        {
+            "id": 105,
+            "external_id": "EHS23",
+            "external_code": "EHS23",
+            "city_id": 36,
+            "distance": 3.6102635562983245,
+            "listing_title": {
+                "de": "ulm",
+                "en": "ulm",
+                "es": "ulm"
+            },
+            "listing_street": {
+                "de": "ehingerstraße",
+                "en": "ehingerstraße",
+                "es": "ehingerstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6623,
+                    "position": 0,
+                    "property_id": 105,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/105/5f696c1f-bc57-4968-b041-75d993402675.jpg"
+                }
+            ]
+        },
+        {
+            "id": 216,
+            "external_id": "EIC26",
+            "external_code": "EIC26",
+            "city_id": 84,
+            "distance": 0.5903539805172362,
+            "listing_title": {
+                "de": "gütersloh",
+                "en": "gütersloh",
+                "es": "gütersloh"
+            },
+            "listing_street": {
+                "de": "eickhoffstraße",
+                "en": "eickhoffstraße ",
+                "es": "eickhoffstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5912,
+                    "position": 1,
+                    "property_id": 216,
+                    "is_portrait": true,
+                    "url": "https://limehome.imgix.net/properties/216/2126988a-2c60-4a0d-9877-1f4a66f02f0a.jpg"
+                }
+            ]
+        },
+        {
+            "id": 174,
+            "external_id": "HUT6",
+            "external_code": "HUT6",
+            "city_id": 61,
+            "distance": 0.6062434181894312,
+            "listing_title": {
+                "de": "bremen",
+                "en": "bremen",
+                "es": "bremen"
+            },
+            "listing_street": {
+                "de": "hutfilterstraße ",
+                "en": "hutfilterstraße ",
+                "es": "hutfilterstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5161,
+                    "position": 0,
+                    "property_id": 174,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/174/19b7158e-0dd4-490f-841a-39bf56da2ccb.jpg"
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "external_id": "GE5",
+            "external_code": "GE5",
+            "city_id": 38,
+            "distance": 1.061446520067704,
+            "listing_title": {
+                "de": "koblenz",
+                "en": "koblenz",
+                "es": "coblenza",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "gerichtsstraße",
+                "en": "gerichtsstraße",
+                "es": "gerichtsstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 213,
+            "external_id": "MUL1",
+            "external_code": "MUL1",
+            "city_id": 32,
+            "distance": 0.8138740761682717,
+            "listing_title": {
+                "de": "flower's",
+                "en": "flower's",
+                "es": "flower's"
+            },
+            "listing_street": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5587,
+                    "position": 1,
+                    "property_id": 213,
+                    "is_portrait": true,
+                    "url": "https://limehome.imgix.net/properties/213/68f30a64-37d6-4365-9728-335b139c1057.jpg"
+                }
+            ]
+        },
+        {
+            "id": 233,
+            "external_id": "KAR26",
+            "external_code": "KAR26",
+            "city_id": 103,
+            "distance": 0.2949255072803096,
+            "listing_title": {
+                "de": "klagenfurt",
+                "en": "klagenfurt",
+                "es": "klagenfurt",
+                "nl": "klagenfurt"
+            },
+            "listing_street": {
+                "de": "karfreitstraße",
+                "en": "karfreitstraße",
+                "es": "karfreitstraße",
+                "nl": "karfreitstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 144,
+            "external_id": "JOR16",
+            "external_code": "JOR16",
+            "city_id": 54,
+            "distance": 2.4068036216464193,
+            "listing_title": {
+                "de": "dresden",
+                "en": "dresden",
+                "es": "dresde",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "jordanstraße",
+                "en": "jordanstraße",
+                "es": "jordanstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4456,
+                    "position": 0,
+                    "property_id": 144,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/144/f55c6c2b-029b-4dab-90c3-e207f58e183a.jpg"
+                }
+            ]
+        },
+        {
+            "id": 169,
+            "external_id": "SCH27",
+            "external_code": "SCH27",
+            "city_id": 35,
+            "distance": 0.8181622479895985,
+            "listing_title": {
+                "de": "erfurt",
+                "en": "erfurt",
+                "es": "érfurt",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "schmidtstedter str. ",
+                "en": "schmidtstedter str. ",
+                "es": "schmidtstedter str. "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3345,
+                    "position": 0,
+                    "property_id": 169,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/169/db855a0f-1dbb-4679-9655-edce32f3257f.jpg"
+                }
+            ]
+        },
+        {
+            "id": 299,
+            "external_id": "BES90",
+            "external_code": "BES90",
+            "city_id": 110,
+            "distance": 3.5623702993235087,
+            "listing_title": {
+                "de": "barcelona",
+                "en": "barcelona",
+                "es": "barcelona",
+                "nl": "barcelona"
+            },
+            "listing_street": {
+                "de": "carrer de besalú 90",
+                "en": "carrer de besalú 90",
+                "es": "carrer de besalú 90",
+                "nl": "carrer de besalú 90"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 168,
+            "external_id": "PUD1",
+            "external_code": "PUD1",
+            "city_id": 32,
+            "distance": 5.504859486624869,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "puderstraße ",
+                "en": "puderstraße ",
+                "es": "puderstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 223,
+            "external_id": "BAH61",
+            "external_code": "BAH61",
+            "city_id": 85,
+            "distance": 0.22437892229548115,
+            "listing_title": {
+                "de": "bodenmais",
+                "en": "bodenmais",
+                "es": "bodenmais",
+                "nl": "bodenmais"
+            },
+            "listing_street": {
+                "de": "bahnhofstraße",
+                "en": "bahnhofstraße",
+                "es": "bahnhofstraße",
+                "nl": "bahnhofstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 237,
+            "external_id": "GIL1",
+            "external_code": "GIL1",
+            "city_id": 91,
+            "distance": 0.5685273456773428,
+            "listing_title": {
+                "de": "rosenheim",
+                "en": "rosenheim",
+                "es": "rosenheim",
+                "nl": "rosenheim"
+            },
+            "listing_street": {
+                "de": "gillitzerstraße",
+                "en": "gillitzerstraße",
+                "es": "gillitzerstraße",
+                "nl": "gillitzerstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 219,
+            "external_id": "BAE1",
+            "external_code": "BAE1",
+            "city_id": 75,
+            "distance": 3.34718588672262,
+            "listing_title": {
+                "de": "baden-baden",
+                "en": "baden-baden",
+                "es": "baden-baden"
+            },
+            "listing_street": {
+                "de": "bäderstraße ",
+                "en": "bäderstraße ",
+                "es": "bäderstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5838,
+                    "position": 0,
+                    "property_id": 219,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/219/9dc3de59-8697-45a1-b036-fa77ac0d5dec.jpg"
+                }
+            ]
+        },
+        {
+            "id": 175,
+            "external_id": "MWS6",
+            "external_code": "MWS6",
+            "city_id": 35,
+            "distance": 0.8812607609022908,
+            "listing_title": {
+                "de": "erfurt",
+                "en": "erfurt",
+                "es": "érfurt",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "maximilian-welsch-straße ",
+                "en": "maximilian-welsch-straße ",
+                "es": "maximilian-welsch-straße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4815,
+                    "position": 0,
+                    "property_id": 175,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/175/dfad6906-3684-40ed-a80f-052555123c5c.jpg"
+                }
+            ]
+        },
+        {
+            "id": 221,
+            "external_id": "LOT4",
+            "external_code": "LOT4",
+            "city_id": 32,
+            "distance": 1.1913914423934437,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "lottumstraße 4",
+                "en": "lottumstraße 4",
+                "es": "lottumstraße 4"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5735,
+                    "position": 0,
+                    "property_id": 221,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/221/4975ec35-b4d5-4513-84e2-364ef533deb9.jpg"
+                }
+            ]
+        },
+        {
+            "id": 115,
+            "external_id": "KASSEL",
+            "external_code": "KASSEL",
+            "city_id": 42,
+            "distance": 0.16684788676303644,
+            "listing_title": {
+                "de": "kassel",
+                "en": "kassel",
+                "es": "kassel"
+            },
+            "listing_street": {
+                "de": "motzstraße ",
+                "en": "motzstrasse ",
+                "es": "motzstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3686,
+                    "position": 0,
+                    "property_id": 115,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/115/ee9957e8-25dc-45d5-bdfe-79bc6ed3db0b.jpg"
+                }
+            ]
+        },
+        {
+            "id": 114,
+            "external_id": "JOH160C",
+            "external_code": "JOH160C",
+            "city_id": 35,
+            "distance": 0.4857184183791558,
+            "listing_title": {
+                "de": "erfurt",
+                "en": "erfurt",
+                "es": "érfurt",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "johannesstraße 160C",
+                "en": "johannesstraße 160C",
+                "es": "johannesstraße 160C"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 355,
+                    "position": 0,
+                    "property_id": 114,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/114/4599ec94-01cc-4c37-92f3-0905576f2a14.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "external_id": "BW249",
+            "external_code": "BW249",
+            "city_id": 34,
+            "distance": 1.1940642794557013,
+            "listing_title": {
+                "de": "magdeburg",
+                "en": "magdeburg",
+                "es": "magdeburgo",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "breiter weg ",
+                "en": "breiter weg  ",
+                "es": "breiter weg "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3500,
+                    "position": 1,
+                    "property_id": 102,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/102/a423cda6-3ec4-48ae-9e7a-6473b816d17e.jpg"
+                }
+            ]
+        },
+        {
+            "id": 253,
+            "external_id": "GAS28",
+            "external_code": "GAS28",
+            "city_id": 100,
+            "distance": 1.3554406392612148,
+            "listing_title": {
+                "de": "eindhoven",
+                "en": "eindhoven",
+                "es": "eindhoven",
+                "nl": "eindhoven"
+            },
+            "listing_street": {
+                "de": "gashouder",
+                "en": "gashouder",
+                "es": "gashouder",
+                "nl": "gashouder"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 97,
+            "external_id": "AUGSBURG",
+            "external_code": "AUGSBURG",
+            "city_id": 28,
+            "distance": 0.8821366833719484,
+            "listing_title": {
+                "de": "augsburg",
+                "en": "augsburg",
+                "es": "augsburgo",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "am katzenstadel ",
+                "en": "am katzenstadel",
+                "es": "am katzenstadel "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6863,
+                    "position": 0,
+                    "property_id": 97,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/97/d7242cef-02a6-44db-99b9-3a89c0f9cccf.jpg"
+                }
+            ]
+        },
+        {
+            "id": 167,
+            "external_id": "NEU21",
+            "external_code": "NEU21",
+            "city_id": 32,
+            "distance": 6.139771297565703,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "neue str. ",
+                "en": "neue str. ",
+                "es": "neue str. "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4285,
+                    "position": 0,
+                    "property_id": 167,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/167/a2f8db94-22dc-4e7a-81a1-eb73fcdd1783.jpg"
+                }
+            ]
+        },
+        {
+            "id": 231,
+            "external_id": "ADC21",
+            "external_code": "ADC21",
+            "city_id": 89,
+            "distance": 0.9042849964072134,
+            "listing_title": {
+                "de": "málaga",
+                "en": "málaga",
+                "es": "málaga",
+                "nl": "málaga"
+            },
+            "listing_street": {
+                "de": "Calle Ancha del Carmen ",
+                "en": "Calle Ancha del Carmen ",
+                "es": "Calle Ancha del Carmen ",
+                "nl": "Calle Ancha del Carmen"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6332,
+                    "position": 0,
+                    "property_id": 231,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/231/52678483-7568-41f9-9c98-9065be62a889.jpg"
+                }
+            ]
+        },
+        {
+            "id": 108,
+            "external_id": "HAR45",
+            "external_code": "HAR45",
+            "city_id": 39,
+            "distance": 1.5267759303316455,
+            "listing_title": {
+                "de": "chemnitz",
+                "en": "chemnitz",
+                "es": "chemnitz"
+            },
+            "listing_street": {
+                "de": "hartmannstraße",
+                "en": "hartmannstraße ",
+                "es": "hartmannstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3179,
+                    "position": 0,
+                    "property_id": 108,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/108/dfc90f17-cb36-4fff-9e7b-d577b0f13b49.jpg"
+                }
+            ]
+        },
+        {
+            "id": 112,
+            "external_id": "JGR137A",
+            "external_code": "JGR137A",
+            "city_id": 35,
+            "distance": 0.512056294631582,
+            "listing_title": {
+                "de": "erfurt",
+                "en": "erfurt",
+                "es": "érfurt",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "juri-gagarin-ring",
+                "en": "juri-gagarin-ring",
+                "es": "juri-gagarin-ring"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 340,
+                    "position": 0,
+                    "property_id": 112,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/112/a861452d-2247-4971-a631-29b837e69ba8.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "external_id": "HOL22",
+            "external_code": "HOL22",
+            "city_id": 40,
+            "distance": 1.244493924975363,
+            "listing_title": {
+                "de": "flensburg",
+                "en": "flensburg",
+                "es": "flensburgo",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "holm ",
+                "en": "holm ",
+                "es": "holm"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3827,
+                    "position": 0,
+                    "property_id": 109,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/109/458d10ad-4cc8-44af-9098-76fc334cea14.jpg"
+                }
+            ]
+        },
+        {
+            "id": 271,
+            "external_id": "FON4",
+            "external_code": "FON4",
+            "city_id": 110,
+            "distance": 4.206450187524484,
+            "listing_title": {
+                "de": "barcelona",
+                "en": "barcelona",
+                "es": "barcelona",
+                "nl": "barcelona"
+            },
+            "listing_street": {
+                "de": "carrer de fontcoberta",
+                "en": "carrer de fontcoberta",
+                "es": "carrer de fontcoberta",
+                "nl": "carrer de fontcoberta"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 268,
+            "external_id": "AVE26",
+            "external_code": "AVE26",
+            "city_id": 82,
+            "distance": 0.7118993590223187,
+            "listing_title": {
+                "de": "madrid",
+                "en": "madrid",
+                "es": "madrid",
+                "nl": "madrid"
+            },
+            "listing_street": {
+                "de": "calle ave maría",
+                "en": "calle ave maría",
+                "es": "calle ave maría",
+                "nl": "calle ave maría"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 197,
+            "external_id": "GER22",
+            "external_code": "GER22",
+            "city_id": 57,
+            "distance": 0.5146186069026146,
+            "listing_title": {
+                "de": "villach",
+                "en": "villach",
+                "es": "villach",
+                "nl": "villach"
+            },
+            "listing_street": {
+                "de": "gerbergasse",
+                "en": "gerbergasse ",
+                "es": "gerbergasse",
+                "nl": "gerbergasse"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 118,
+            "external_id": "LG13AUT",
+            "external_code": "LG13AUT",
+            "city_id": 43,
+            "distance": 3.014647047151444,
+            "listing_title": {
+                "de": "wien",
+                "en": "vienna",
+                "es": "viena",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "landgutgasse",
+                "en": "landgutgasse ",
+                "es": "landgutgasse"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 111,
+            "external_id": "JA21A",
+            "external_code": "JA21A",
+            "city_id": 33,
+            "distance": 1.2927354828744464,
+            "listing_title": {
+                "de": "leipzig",
+                "en": "leipzig",
+                "es": "leipzig"
+            },
+            "listing_street": {
+                "de": "jahnallee ",
+                "en": "jahnallee ",
+                "es": " jahnallee "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6433,
+                    "position": 0,
+                    "property_id": 111,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/111/364b4bd0-9e0a-4749-a2b4-19673f2acd3d.jpg"
+                }
+            ]
+        },
+        {
+            "id": 124,
+            "external_id": "POR102",
+            "external_code": "POR102",
+            "city_id": 47,
+            "distance": 0.8111571109318791,
+            "listing_title": {
+                "de": "wolfsburg",
+                "en": "wolfsburg",
+                "es": "wolfsburgo",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "porschestraße",
+                "en": "porschestraße",
+                "es": "porschestraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3273,
+                    "position": 0,
+                    "property_id": 124,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/124/d63fc49d-9d21-4f31-8511-1810b694b80b.jpg"
+                }
+            ]
+        },
+        {
+            "id": 207,
+            "external_id": "LUI4",
+            "external_code": "LUI4",
+            "city_id": 32,
+            "distance": 6.359737828413844,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": "berlin"
+            },
+            "listing_street": {
+                "de": "luise-henriette-straße",
+                "en": "luise-henriette-straße",
+                "es": "luise-henriette-straße",
+                "nl": "luise-henriette-straße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 199,
+            "external_id": "HO17",
+            "external_code": "HO17",
+            "city_id": 41,
+            "distance": 0.9358625945372454,
+            "listing_title": {
+                "de": "linz",
+                "en": "linz",
+                "es": "linz"
+            },
+            "listing_street": {
+                "de": "hopfengasse ",
+                "en": "hopfengasse ",
+                "es": "hopfengasse"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3556,
+                    "position": 0,
+                    "property_id": 199,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/199/e2da53da-6c80-44be-920e-d7191301d3e8.jpg"
+                }
+            ]
+        },
+        {
+            "id": 227,
+            "external_id": "KEI329",
+            "external_code": "KEI329",
+            "city_id": 87,
+            "distance": 4.0560143012198235,
+            "listing_title": {
+                "de": "den haag",
+                "en": "the hague",
+                "es": "la haya",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "keizerstraat",
+                "en": "keizerstraat",
+                "es": "keizerstraat"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6125,
+                    "position": 0,
+                    "property_id": 227,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/227/d4368c86-563a-4a98-a4de-2f21e55fb819.jpg"
+                }
+            ]
+        },
+        {
+            "id": 98,
+            "external_id": "BAU7A",
+            "external_code": "BAU7A",
+            "city_id": 31,
+            "distance": 0.24677679372711478,
+            "listing_title": {
+                "de": "ingolstadt",
+                "en": "ingolstadt",
+                "es": "ingolstadt"
+            },
+            "listing_street": {
+                "de": "bauhofstraße",
+                "en": "bauhofstrasse",
+                "es": "bauhofstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 126,
+            "external_id": "RGP1",
+            "external_code": "RGP1",
+            "city_id": 49,
+            "distance": 0.84940785467399,
+            "listing_title": {
+                "de": "mainz",
+                "en": "mainz",
+                "es": "maguncia",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "romano-guardini-platz ",
+                "en": "romano-guardini-platz ",
+                "es": "romano-guardini-platz "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6917,
+                    "position": 0,
+                    "property_id": 126,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/126/70a710ce-a241-4771-b47e-2c87d4b13028.jpg"
+                }
+            ]
+        },
+        {
+            "id": 173,
+            "external_id": "ANN3",
+            "external_code": "ANN3",
+            "city_id": 28,
+            "distance": 0.18441701336279756,
+            "listing_title": {
+                "de": "augsburg",
+                "en": "augsburg",
+                "es": "augsburgo",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "annastraße",
+                "en": "annastraße",
+                "es": "annastraße",
+                "nl": null
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6522,
+                    "position": 0,
+                    "property_id": 173,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/173/c0cd12fe-39c8-40d3-89d5-998f1e3a1b97.jpg"
+                }
+            ]
+        },
+        {
+            "id": 149,
+            "external_id": "BRU60",
+            "external_code": "BRU60",
+            "city_id": 33,
+            "distance": 0.9950311346963795,
+            "listing_title": {
+                "de": "leipzig",
+                "en": "leipzig",
+                "es": "leipzig"
+            },
+            "listing_street": {
+                "de": "am brühl ",
+                "en": "am brühl ",
+                "es": "am brühl "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3637,
+                    "position": 0,
+                    "property_id": 149,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/149/d199e70a-2306-4842-a743-6dc6290311db.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 99,
+            "external_id": "BERLIN",
+            "external_code": "BERLIN",
+            "city_id": 32,
+            "distance": 6.321157219990815,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "schlüterstraße",
+                "en": "schlüterstraße",
+                "es": "schlüterstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 2854,
+                    "position": 0,
+                    "property_id": 99,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/99/9fee5516-9d41-41f7-95ea-6ac72c49fb86.jpg"
+                }
+            ]
+        },
+        {
+            "id": 189,
+            "external_id": "POS14",
+            "external_code": "POS14",
+            "city_id": 70,
+            "distance": 0.8394720643121374,
+            "listing_title": {
+                "de": "rottenburg am neckar",
+                "en": "rottenburg am neckar",
+                "es": "rotemburgo del neckar",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "poststraße ",
+                "en": "poststraße ",
+                "es": "poststraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5848,
+                    "position": 0,
+                    "property_id": 189,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/189/e66f0132-ca84-4769-929a-bf713ae3bef4.jpg"
+                }
+            ]
+        },
+        {
+            "id": 239,
+            "external_id": "FRI15",
+            "external_code": "FRI15",
+            "city_id": 93,
+            "distance": 1.552606411770429,
+            "listing_title": {
+                "de": "köln",
+                "en": "cologne",
+                "es": "colonia",
+                "nl": "keulen"
+            },
+            "listing_street": {
+                "de": "friesenplatz",
+                "en": "friesenplatz",
+                "es": "friesenplatz",
+                "nl": "friesenplatz"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 161,
+            "external_id": "KOP72",
+            "external_code": "KOP72",
+            "city_id": 32,
+            "distance": 3.188657679389943,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "kopenhagener str. ",
+                "en": "kopenhagener str. ",
+                "es": "kopenhagener str. "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4487,
+                    "position": 0,
+                    "property_id": 161,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/161/19e2d42a-9f31-4939-a52a-0f550432ea41.jpg"
+                }
+            ]
+        },
+        {
+            "id": 121,
+            "external_id": "MONTABAUR",
+            "external_code": "MONTABAUR",
+            "city_id": 30,
+            "distance": 0.4403885484541269,
+            "listing_title": {
+                "de": "montabaur",
+                "en": "montabaur",
+                "es": "montabaur"
+            },
+            "listing_street": {
+                "de": "kirchstraße ",
+                "en": "kirchstraße ",
+                "es": "kirchstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 117,
+            "external_id": "KRG12",
+            "external_code": "KRG12",
+            "city_id": 31,
+            "distance": 0.49331681518072223,
+            "listing_title": {
+                "de": "ingolstadt",
+                "en": "ingolstadt",
+                "es": "ingolstadt"
+            },
+            "listing_street": {
+                "de": "kleine rosengasse",
+                "en": "kleine rosengasse",
+                "es": "kleine rosengasse"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3699,
+                    "position": 0,
+                    "property_id": 117,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/117/1798fd89-5af9-4cf6-ae0f-7128aeb2a9db.jpg"
+                }
+            ]
+        },
+        {
+            "id": 142,
+            "external_id": "DFR21A",
+            "external_code": "DFR21A",
+            "city_id": 53,
+            "distance": 9.208715244590296,
+            "listing_title": {
+                "de": "zwickau",
+                "en": "zwickau",
+                "es": "zwickau"
+            },
+            "listing_street": {
+                "de": "dr.-friedrichs-ring ",
+                "en": "dr.-friedrichs-ring ",
+                "es": "dr.-friedrichs-ring "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 1107,
+                    "position": 0,
+                    "property_id": 142,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/142/73a06b61-6ea7-428c-bdcd-717cef3db1d7.jpg"
+                }
+            ]
+        },
+        {
+            "id": 188,
+            "external_id": "JOH84A",
+            "external_code": "JOH84A",
+            "city_id": 69,
+            "distance": 0.34010112815390975,
+            "listing_title": {
+                "de": "osnabrück",
+                "en": "osnabrück",
+                "es": "osnabrück"
+            },
+            "listing_street": {
+                "de": "johannisstraße ",
+                "en": "johannisstraße ",
+                "es": "johannisstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6025,
+                    "position": 0,
+                    "property_id": 188,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/188/e11e0b58-ba5e-4236-9e3d-c61956e012dc.jpg"
+                }
+            ]
+        },
+        {
+            "id": 152,
+            "external_id": "WER3",
+            "external_code": "WER3",
+            "city_id": 32,
+            "distance": 3.127749150912429,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "werftstraße ",
+                "en": "werftstraße ",
+                "es": "werftstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4595,
+                    "position": 0,
+                    "property_id": 152,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/152/bff791de-57fa-450b-869d-0a7bfac7a55c.jpg"
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "external_id": "JOH160A",
+            "external_code": "JOH160A",
+            "city_id": 35,
+            "distance": 0.4857184183791558,
+            "listing_title": {
+                "de": "erfurt",
+                "en": "erfurt",
+                "es": "érfurt",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "johannesstraße 160",
+                "en": "johannesstraße 160",
+                "es": "johannesstraße 160"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 322,
+                    "position": 0,
+                    "property_id": 113,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/113/12663996-2bc7-4526-907a-fbb07b408294.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 119,
+            "external_id": "MAX8",
+            "external_code": "MAX8",
+            "city_id": 44,
+            "distance": 0.37103320702610754,
+            "listing_title": {
+                "de": "bamberg",
+                "en": "bamberg",
+                "es": "bamberg"
+            },
+            "listing_street": {
+                "de": "maximiliansplatz ",
+                "en": "maximiliansplatz ",
+                "es": "maximiliansplatz"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3133,
+                    "position": 0,
+                    "property_id": 119,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/119/51f3537b-836c-40c7-b2c8-eff653572c33.jpg"
+                }
+            ]
+        },
+        {
+            "id": 224,
+            "external_id": "SPI2",
+            "external_code": "SPI2",
+            "city_id": 86,
+            "distance": 0.15838741902066236,
+            "listing_title": {
+                "de": "bayreuth",
+                "en": "bayreuth",
+                "es": "bayreuth",
+                "nl": "bayreuth"
+            },
+            "listing_street": {
+                "de": "spitalgasse",
+                "en": "spitalgasse",
+                "es": "spitalgasse",
+                "nl": "spitalgasse"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 153,
+            "external_id": "ANT5",
+            "external_code": "ANT5",
+            "city_id": 54,
+            "distance": 1.860508944433597,
+            "listing_title": {
+                "de": "dresden",
+                "en": "dresden",
+                "es": "dresde",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "antonstraße ",
+                "en": "antonstraße ",
+                "es": "antonstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3847,
+                    "position": 0,
+                    "property_id": 153,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/153/d6384aa3-be6b-450a-8ce6-af662c641569.jpg"
+                }
+            ]
+        },
+        {
+            "id": 214,
+            "external_id": "TLT4",
+            "external_code": "TLT4",
+            "city_id": 83,
+            "distance": 3.183553124933157,
+            "listing_title": {
+                "de": "sevilla",
+                "en": "seville",
+                "es": "sevilla",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "calle torcuato luca de tena ",
+                "en": "calle torcuato luca de tena ",
+                "es": "calle torcuato luca de tena "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5060,
+                    "position": 9,
+                    "property_id": 214,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/214/d5558679-f46b-44e8-be01-e176e6cbb0c6.jpg"
+                }
+            ]
+        },
+        {
+            "id": 230,
+            "external_id": "MUE12",
+            "external_code": "MUE12",
+            "city_id": 32,
+            "distance": 3.6522659973723774,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": "berlin"
+            },
+            "listing_street": {
+                "de": "müllerstraße",
+                "en": "müllerstraße",
+                "es": "müllerstraße",
+                "nl": "müllerstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 202,
+            "external_id": "BLE5",
+            "external_code": "BLE5",
+            "city_id": 78,
+            "distance": 0.25824886243856876,
+            "listing_title": {
+                "de": "hannover",
+                "en": "hannover",
+                "es": "hannover"
+            },
+            "listing_street": {
+                "de": "bleichenstraße ",
+                "en": "bleichenstraße ",
+                "es": "bleichenstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6150,
+                    "position": 0,
+                    "property_id": 202,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/202/ca139924-b301-447f-9eca-8c5ccf5a1fde.jpg"
+                }
+            ]
+        },
+        {
+            "id": 222,
+            "external_id": "BAH30",
+            "external_code": "BAH30",
+            "city_id": 29,
+            "distance": 1.2332146552593628,
+            "listing_title": {
+                "de": "passau",
+                "en": "passau",
+                "es": "passau"
+            },
+            "listing_street": {
+                "de": "bahnhofstraße  ",
+                "en": "bahnhofstraße ",
+                "es": "bahnhofstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5772,
+                    "position": 0,
+                    "property_id": 222,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/222/a52fc826-6ced-4467-a5a7-198d320c4ef9.jpg"
+                }
+            ]
+        },
+        {
+            "id": 183,
+            "external_id": "FLI53",
+            "external_code": "FLI53",
+            "city_id": 64,
+            "distance": 1.1723357987570677,
+            "listing_title": {
+                "de": "mönchengladbach",
+                "en": "mönchengladbach",
+                "es": "mönchengladbach"
+            },
+            "listing_street": {
+                "de": "fliethstraße ",
+                "en": "fliethstraße ",
+                "es": "fliethstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4349,
+                    "position": 0,
+                    "property_id": 183,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/183/0ae88c3e-e510-4e14-94b9-192c8945bd5f.jpg"
+                }
+            ]
+        },
+        {
+            "id": 100,
+            "external_id": "BRA20",
+            "external_code": "BRA20",
+            "city_id": 33,
+            "distance": 1.8007639408573122,
+            "listing_title": {
+                "de": "leipzig",
+                "en": "leipzig",
+                "es": "leipzig"
+            },
+            "listing_street": {
+                "de": "brandenburger straße",
+                "en": "brandenburger straße",
+                "es": "brandenburger straße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3627,
+                    "position": 0,
+                    "property_id": 100,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/100/5698f335-1947-4e0b-869b-dfc3ad1ff3bb.jpg"
+                }
+            ]
+        },
+        {
+            "id": 150,
+            "external_id": "WIL10",
+            "external_code": "WIL10",
+            "city_id": 58,
+            "distance": 0.6377778771674226,
+            "listing_title": {
+                "de": "darmstadt",
+                "en": "darmstadt",
+                "es": "darmstadt"
+            },
+            "listing_street": {
+                "de": "wilhelminenstraße ",
+                "en": "wilhelminenstraße ",
+                "es": "wilhelminenstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3205,
+                    "position": 0,
+                    "property_id": 150,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/150/4be31c5e-ed03-4c59-9a4c-d6ade8d02cf6.jpg"
+                }
+            ]
+        },
+        {
+            "id": 140,
+            "external_id": "SW17",
+            "external_code": "SW17",
+            "city_id": 52,
+            "distance": 0.4390076072074085,
+            "listing_title": {
+                "de": "dortmund",
+                "en": "dortmund",
+                "es": "dortmund"
+            },
+            "listing_street": {
+                "de": "südwall",
+                "en": "südwall",
+                "es": "südwall"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3295,
+                    "position": 0,
+                    "property_id": 140,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/140/880afe25-99d0-4c90-a9ea-b4a10c129d70.jpg"
+                }
+            ]
+        },
+        {
+            "id": 139,
+            "external_id": "PIL10",
+            "external_code": "PIL10",
+            "city_id": 28,
+            "distance": 0.3053727974635307,
+            "listing_title": {
+                "de": "augsburg",
+                "en": "augsburg",
+                "es": "augsburgo",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "pilgerhausstraße",
+                "en": "pilgerhausstraße",
+                "es": "pilgerhausstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6741,
+                    "position": 0,
+                    "property_id": 139,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/139/dbdfddd0-7dfc-4d0e-b48b-49a0e6d94173.jpg"
+                }
+            ]
+        },
+        {
+            "id": 210,
+            "external_id": "SCH185",
+            "external_code": "SCH185",
+            "city_id": 32,
+            "distance": 1.1130809278046094,
+            "listing_title": {
+                "de": "schoenhouse",
+                "en": "schoenhouse",
+                "es": "schoenhouse"
+            },
+            "listing_street": {
+                "de": "berlin ",
+                "en": "berlin ",
+                "es": "berlín ",
+                "nl": null
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5606,
+                    "position": 0,
+                    "property_id": 210,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/210/89db5355-6b54-4e0a-93ad-7f798658cb21.jpg"
+                }
+            ]
+        },
+        {
+            "id": 254,
+            "external_id": "HAU8",
+            "external_code": "HAU8",
+            "city_id": 53,
+            "distance": 9.283469077888947,
+            "listing_title": {
+                "de": "zwickau",
+                "en": "zwickau",
+                "es": "zwickau",
+                "nl": "zwickau"
+            },
+            "listing_street": {
+                "de": "hauptmarkt",
+                "en": "hauptmarkt",
+                "es": "hauptmarkt",
+                "nl": "hauptmarkt"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 137,
+            "external_id": "SCH48",
+            "external_code": "SCH48",
+            "city_id": 41,
+            "distance": 1.2985391306318932,
+            "listing_title": {
+                "de": "linz",
+                "en": "linz",
+                "es": "linz"
+            },
+            "listing_street": {
+                "de": "schillerstraße",
+                "en": "schillerstraße",
+                "es": "schillerstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3518,
+                    "position": 0,
+                    "property_id": 137,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/137/24816f70-43da-485b-b3d6-42001e73028c.jpg"
+                }
+            ]
+        },
+        {
+            "id": 208,
+            "external_id": "GUT59",
+            "external_code": "GUT59",
+            "city_id": 59,
+            "distance": 1.1790028791319742,
+            "listing_title": {
+                "de": "frankfurt ",
+                "en": "frankfurt",
+                "es": "fráncfort",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "gutleutstraße ",
+                "en": "gutleutstraße ",
+                "es": " gutleutstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4795,
+                    "position": 0,
+                    "property_id": 208,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/208/10d7e768-6dd8-477d-ab93-35a739315f2a.jpg"
+                }
+            ]
+        },
+        {
+            "id": 95,
+            "external_id": "ANG9",
+            "external_code": "ANG9",
+            "city_id": 29,
+            "distance": 1.6576440699005617,
+            "listing_title": {
+                "de": "passau",
+                "en": "passau",
+                "es": "passau"
+            },
+            "listing_street": {
+                "de": "angerstraße",
+                "en": "angerstraße ",
+                "es": "angerstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3422,
+                    "position": 0,
+                    "property_id": 95,
+                    "is_portrait": true,
+                    "url": "https://limehome.imgix.net/properties/95/2be1d260-b132-4811-9429-57eb8d004d4c.jpg"
+                }
+            ]
+        },
+        {
+            "id": 298,
+            "external_id": "BES82",
+            "external_code": "BES82",
+            "city_id": 110,
+            "distance": 3.5624448000203914,
+            "listing_title": {
+                "de": "barcelona",
+                "en": "barcelona",
+                "es": "barcelona",
+                "nl": "barcelona"
+            },
+            "listing_street": {
+                "de": "carrer de besalú 82",
+                "en": "carrer de besalú 82",
+                "es": "carrer de besalú 82",
+                "nl": "carrer de besalú 82"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 217,
+            "external_id": "RIT23",
+            "external_code": "RIT23",
+            "city_id": 33,
+            "distance": 0.9306910458974186,
+            "listing_title": {
+                "de": "leipzig",
+                "en": "leipzig",
+                "es": "leipzig"
+            },
+            "listing_street": {
+                "de": "ritterstraße ",
+                "en": "ritterstraße ",
+                "es": "ritterstraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5978,
+                    "position": 0,
+                    "property_id": 217,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/217/7c9c3c93-a894-4779-a804-a2c95de83d05.jpg"
+                }
+            ]
+        },
+        {
+            "id": 159,
+            "external_id": "FLO3",
+            "external_code": "FLO3",
+            "city_id": 32,
+            "distance": 5.113590533377484,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "florastraße",
+                "en": "florastraße",
+                "es": "florastraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4737,
+                    "position": 0,
+                    "property_id": 159,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/159/a1d5a257-da80-4ed7-9b8d-4ce317eac9ca.jpg"
+                }
+            ]
+        },
+        {
+            "id": 232,
+            "external_id": "WAL10",
+            "external_code": "WAL10",
+            "city_id": 54,
+            "distance": 0.4799511107901829,
+            "listing_title": {
+                "de": "dresden",
+                "en": "dresden",
+                "es": "dresde",
+                "nl": "dresden"
+            },
+            "listing_street": {
+                "de": "wallstraße",
+                "en": "wallstraße",
+                "es": "wallstraße",
+                "nl": "wallstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 6380,
+                    "position": 0,
+                    "property_id": 232,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/232/873b6bf3-38e7-4405-9e5b-5de97e7d4570.jpg"
+                }
+            ]
+        },
+        {
+            "id": 141,
+            "external_id": "GB1",
+            "external_code": "GB1",
+            "city_id": 53,
+            "distance": 8.597844030438427,
+            "listing_title": {
+                "de": "zwickau",
+                "en": "zwickau",
+                "es": "zwickau"
+            },
+            "listing_street": {
+                "de": "große biergasse ",
+                "en": "große biergasse ",
+                "es": "große biergasse "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 1530,
+                    "position": 0,
+                    "property_id": 141,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/141/4b7092f6-c68c-458e-b4f5-2aff458d4bd1.jpg"
+                }
+            ]
+        },
+        {
+            "id": 154,
+            "external_id": "TAN5",
+            "external_code": "TAN5",
+            "city_id": 54,
+            "distance": 3.047343644055569,
+            "listing_title": {
+                "de": "dresden",
+                "en": "dresden",
+                "es": "dresde",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "tannenstraße ",
+                "en": "tannenstraße ",
+                "es": "tannenstraße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 4401,
+                    "position": 0,
+                    "property_id": 154,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/154/07026b93-c27c-421c-9753-361c5a73c0f8.jpg"
+                }
+            ]
+        },
+        {
+            "id": 211,
+            "external_id": "PRE241",
+            "external_code": "PRE241",
+            "city_id": 32,
+            "distance": 1.4550199063525644,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "prenzlauer allee ",
+                "en": "prenzlauer allee ",
+                "es": "prenzlauer allee "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 212,
+            "external_id": "CHA85",
+            "external_code": "CHA85",
+            "city_id": 32,
+            "distance": 2.912617051624964,
+            "listing_title": {
+                "de": "berlin",
+                "en": "berlin",
+                "es": "berlín",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "chausseestraße ",
+                "en": "chausseestraße  ",
+                "es": "chausseestraße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 5232,
+                    "position": 0,
+                    "property_id": 212,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/212/a41ba268-c87e-4452-9f53-120ff88dfeef.jpg"
+                }
+            ]
+        },
+        {
+            "id": 177,
+            "external_id": "BAS2",
+            "external_code": "BAS2",
+            "city_id": 45,
+            "distance": 13.661951839212545,
+            "listing_title": {
+                "de": "garching bei münchen",
+                "en": "garching / munich",
+                "es": "garching / múnich"
+            },
+            "listing_street": {
+                "de": "bürgermeister-amon-straße ",
+                "en": "bürgermeister-amon-straße ",
+                "es": "bürgermeister-amon-straße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": [
+                {
+                    "id": 3783,
+                    "position": 0,
+                    "property_id": 177,
+                    "is_portrait": false,
+                    "url": "https://limehome.imgix.net/properties/177/90b0e0af-e87e-46e1-8694-4050544a8738.jpg"
+                }
+            ]
+        },
+        {
+            "id": 242,
+            "external_id": "REI24",
+            "external_code": "REI24",
+            "city_id": 95,
+            "distance": 0.22436177495855844,
+            "listing_title": {
+                "de": "aalen",
+                "en": "aalen",
+                "es": "aalen",
+                "nl": "aalen"
+            },
+            "listing_street": {
+                "de": "reichsstädter straße",
+                "en": "reichsstädter straße",
+                "es": "reichsstädter straße",
+                "nl": "reichsstädter straße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 104,
+            "external_id": "BW4",
+            "external_code": "BW4",
+            "city_id": 35,
+            "distance": 0.7355145097149373,
+            "listing_title": {
+                "de": "erfurt",
+                "en": "erfurt",
+                "es": "érfurt",
+                "nl": null
+            },
+            "listing_street": {
+                "de": "bürgermeister-wagner-straße ",
+                "en": "bürgermeister-wagner-straße ",
+                "es": "bürgermeister-wagner-straße "
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        },
+        {
+            "id": 185,
+            "external_id": "VSS13",
+            "external_code": "VSS13",
+            "city_id": 66,
+            "distance": 0.7752852880605197,
+            "listing_title": {
+                "de": "münster",
+                "en": "münster",
+                "es": "münster",
+                "nl": "münster"
+            },
+            "listing_street": {
+                "de": "von-steuben-straße",
+                "en": "von-steuben-straße",
+                "es": "von-steuben-straße",
+                "nl": "von-steuben-straße"
+            },
+            "lowest_price_per_night": null,
+            "lowest_price_per_month": null,
+            "images": []
+        }
+    ]
+}

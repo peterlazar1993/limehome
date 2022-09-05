@@ -51,6 +51,23 @@ const textVariants = {
     fontSize: 30,
     color: 'text-on-light',
   },
+  heading: {
+    fontFamily: 'Milkman_300Light',
+    fontSize: 24,
+    color: 'text-on-light',
+    letterSpacing: -0.5,
+  },
+  subheading: {
+    fontFamily: 'Milkman_300Light',
+    fontSize: 16,
+    color: 'text-on-light',
+    lineHeight: 24,
+  },
+  propertyCount: {
+    fontFamily: 'Gilmer_500Medium',
+    fontSize: 12,
+    color: 'text-on-light',
+  },
   listingStreet: {
     fontFamily: 'Gilmer_500Medium',
     fontSize: 15,
@@ -58,7 +75,7 @@ const textVariants = {
   },
   description: {
     fontFamily: 'Gilmer_500Medium',
-    fontSize: 14,
+    fontSize: 15,
     textAlign: 'center',
     lineHeight: 21,
     color: 'text-on-light',

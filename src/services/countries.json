@@ -1,0 +1,524 @@
+[
+    {
+        "id": 2,
+        "code": "AT",
+        "name": {
+            "de": "Österreich",
+            "en": "Austria",
+            "es": "Austria"
+        },
+        "cities": [
+            {
+                "id": 103,
+                "name": {
+                    "de": "klagenfurt",
+                    "en": "klagenfurt",
+                    "es": "klagenfurt",
+                    "nl": "klagenfurt"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 41,
+                "name": {
+                    "de": "linz",
+                    "en": "linz",
+                    "es": "linz"
+                },
+                "property_count": "3"
+            },
+            {
+                "id": 43,
+                "name": {
+                    "de": "wien",
+                    "en": "vienna",
+                    "es": "viena"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 57,
+                "name": {
+                    "de": "villach",
+                    "en": "villach",
+                    "es": "villach"
+                },
+                "property_count": "2"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "code": "DE",
+        "name": {
+            "de": "Deutschland",
+            "en": "Germany",
+            "es": "Alemania"
+        },
+        "cities": [
+            {
+                "id": 27,
+                "name": {
+                    "de": "aachen",
+                    "en": "aachen",
+                    "es": "aquisgrán",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 95,
+                "name": {
+                    "de": "aalen",
+                    "en": "aalen",
+                    "es": "aalen",
+                    "nl": "aalen"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 28,
+                "name": {
+                    "de": "augsburg",
+                    "en": "augsburg",
+                    "es": "augsburgo",
+                    "nl": null
+                },
+                "property_count": "3"
+            },
+            {
+                "id": 75,
+                "name": {
+                    "de": "baden-baden",
+                    "en": "baden-baden",
+                    "es": "baden-baden"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 44,
+                "name": {
+                    "de": "bamberg",
+                    "en": "bamberg",
+                    "es": "bamberg"
+                },
+                "property_count": "2"
+            },
+            {
+                "id": 86,
+                "name": {
+                    "de": "bayreuth",
+                    "en": "bayreuth",
+                    "es": "bayreuth",
+                    "nl": "bayreuth"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 32,
+                "name": {
+                    "de": "berlin",
+                    "en": "berlin",
+                    "es": "berlín",
+                    "nl": null
+                },
+                "property_count": "15"
+            },
+            {
+                "id": 85,
+                "name": {
+                    "de": "bodenmais",
+                    "en": "bodenmais",
+                    "es": "bodenmais",
+                    "nl": "bodenmais"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 61,
+                "name": {
+                    "de": "bremen",
+                    "en": "bremen",
+                    "es": "bremen"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 39,
+                "name": {
+                    "de": "chemnitz",
+                    "en": "chemnitz",
+                    "es": "chemnitz"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 93,
+                "name": {
+                    "de": "köln",
+                    "en": "cologne ",
+                    "es": "colonia",
+                    "nl": "keulen"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 58,
+                "name": {
+                    "de": "darmstadt",
+                    "en": "darmstadt",
+                    "es": "darmstadt"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 52,
+                "name": {
+                    "de": "dortmund",
+                    "en": "dortmund",
+                    "es": "dortmund"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 54,
+                "name": {
+                    "de": "dresden",
+                    "en": "dresden",
+                    "es": "dresde",
+                    "nl": null
+                },
+                "property_count": "5"
+            },
+            {
+                "id": 35,
+                "name": {
+                    "de": "erfurt",
+                    "en": "erfurt",
+                    "es": "érfurt",
+                    "nl": null
+                },
+                "property_count": "6"
+            },
+            {
+                "id": 37,
+                "name": {
+                    "de": "essen",
+                    "en": "essen",
+                    "es": "essen"
+                },
+                "property_count": "2"
+            },
+            {
+                "id": 40,
+                "name": {
+                    "de": "flensburg",
+                    "en": "flensburg",
+                    "es": "flensburgo",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 59,
+                "name": {
+                    "de": "frankfurt am main",
+                    "en": "frankfurt am main",
+                    "es": "fráncfort del meno",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 84,
+                "name": {
+                    "de": "Gütersloh",
+                    "en": "Guetersloh",
+                    "es": "Guetersloh"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 78,
+                "name": {
+                    "de": "hannover",
+                    "en": "hannover",
+                    "es": "hannover",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 31,
+                "name": {
+                    "de": "ingolstadt",
+                    "en": "ingolstadt",
+                    "es": "ingolstadt"
+                },
+                "property_count": "2"
+            },
+            {
+                "id": 42,
+                "name": {
+                    "de": "kassel",
+                    "en": "kassel",
+                    "es": "kassel"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 38,
+                "name": {
+                    "de": "koblenz",
+                    "en": "koblenz",
+                    "es": "coblenza",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 33,
+                "name": {
+                    "de": "leipzig",
+                    "en": "leipzig",
+                    "es": "leipzig"
+                },
+                "property_count": "4"
+            },
+            {
+                "id": 34,
+                "name": {
+                    "de": "magdeburg",
+                    "en": "magdeburg",
+                    "es": "magdeburgo",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 49,
+                "name": {
+                    "de": "mainz",
+                    "en": "mainz",
+                    "es": "maguncia",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 64,
+                "name": {
+                    "de": "mönchengladbach",
+                    "en": "mönchengladbach",
+                    "es": "mönchengladbach"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 30,
+                "name": {
+                    "de": "montabaur",
+                    "en": "montabaur",
+                    "es": "montabaur"
+                },
+                "property_count": "2"
+            },
+            {
+                "id": 45,
+                "name": {
+                    "de": "münchen",
+                    "en": "munich",
+                    "es": "munich"
+                },
+                "property_count": "2"
+            },
+            {
+                "id": 66,
+                "name": {
+                    "de": "münster",
+                    "en": "münster",
+                    "es": "münster",
+                    "nl": "münster"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 69,
+                "name": {
+                    "de": "Osnabrück",
+                    "en": "Osnabrück"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 29,
+                "name": {
+                    "de": "passau",
+                    "en": "passau",
+                    "es": "passau"
+                },
+                "property_count": "2"
+            },
+            {
+                "id": 77,
+                "name": {
+                    "de": "potsdam",
+                    "en": "potsdam",
+                    "es": "potsdam"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 91,
+                "name": {
+                    "de": "rosenheim",
+                    "en": "rosenheim",
+                    "es": "rosenheim",
+                    "nl": "rosenheim"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 70,
+                "name": {
+                    "de": "rottenburg am neckar",
+                    "en": "rottenburg am neckar",
+                    "es": "rotemburgo del neckar",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 55,
+                "name": {
+                    "de": "trier",
+                    "en": "trier",
+                    "es": "tréveris",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 36,
+                "name": {
+                    "de": "ulm",
+                    "en": "ulm",
+                    "es": "ulm"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 47,
+                "name": {
+                    "de": "wolfsburg",
+                    "en": "wolfsburg",
+                    "es": "wolfsburgo",
+                    "nl": null
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 53,
+                "name": {
+                    "de": "zwickau",
+                    "en": "zwickau",
+                    "es": "zwickau"
+                },
+                "property_count": "3"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "code": "NL",
+        "name": {
+            "de": "Niederlande",
+            "en": "Netherlands",
+            "es": "Países Bajos",
+            "nl": null
+        },
+        "cities": [
+            {
+                "id": 87,
+                "name": {
+                    "de": "den haag",
+                    "en": "the Hague",
+                    "es": "la haya",
+                    "nl": null
+                },
+                "property_count": "1"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "code": "ES",
+        "name": {
+            "de": "Spanien",
+            "en": "Spain",
+            "es": "España"
+        },
+        "cities": [
+            {
+                "id": 110,
+                "name": {
+                    "de": "barcelona",
+                    "en": "barcelona",
+                    "es": "barcelona",
+                    "nl": "barcelona",
+                    "undefined": "Barcelona"
+                },
+                "property_count": "3"
+            },
+            {
+                "id": 79,
+                "name": {
+                    "de": "granada",
+                    "en": "granada",
+                    "es": "granada"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 112,
+                "name": {
+                    "de": "haro",
+                    "en": "haro",
+                    "es": "haro",
+                    "nl": "haro",
+                    "undefined": "Haro"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 82,
+                "name": {
+                    "de": "madrid",
+                    "en": "madrid",
+                    "es": "madrid"
+                },
+                "property_count": "4"
+            },
+            {
+                "id": 89,
+                "name": {
+                    "de": "málaga",
+                    "en": "málaga",
+                    "es": "málaga",
+                    "nl": "málaga"
+                },
+                "property_count": "1"
+            },
+            {
+                "id": 83,
+                "name": {
+                    "de": "sevilla",
+                    "en": "seville",
+                    "es": "sevilla",
+                    "nl": null
+                },
+                "property_count": "1"
+            }
+        ]
+    }
+]
