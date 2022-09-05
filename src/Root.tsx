@@ -6,12 +6,12 @@ import { useState } from 'react';
 import { ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { FeaturedLocations } from './components/FeaturedLocations';
 import { Logo } from './components/Logo';
 import { SplashScreen } from './components/SplashScreen';
 import { useTimeout } from './hooks/useTimeout';
 import { Theme } from './theme';
 import MotiBox from './theme/MotiBox';
-import Text from './theme/Text';
 
 function Root() {
   const { colors } = useTheme<Theme>();
@@ -33,7 +33,7 @@ function Root() {
       style={{
         flex: 1,
       }}>
-      <BackgroundColor color={colors.background} />
+      <BackgroundColor color={colors['surface-primary']} />
 
       <AnimatePresence exitBeforeEnter>
         {isReadyToShowHome ? (
@@ -69,42 +69,25 @@ function Home() {
             opacity: 0,
           }}
           transition={{
-            duration: 600,
+            duration: 300,
             type: 'timing',
           }}>
           <Logo />
         </MotiBox>
         <MotiBox
-          delay={700}
+          delay={350}
           from={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          exit={{
-            opacity: 0,
-          }}
           transition={{
-            duration: 600,
+            duration: 300,
             type: 'timing',
           }}
           flex={1}
-          width="100%"
-          alignItems="center"
-          paddingHorizontal="xl">
-          <Text variant="sectionTitle" color="decorative-one-surface">
-            our locations
-          </Text>
-          <Text variant="description" marginTop="s">
-            Discover our wide variety of locations across Europe. All our limehomes are situated in
-            prime locations, conveniently connected to public transport &amp; our suites are
-            suitable for short city trips as well as longer business stays. Stay tuned!
-          </Text>
+          width="100%">
+          <FeaturedLocations />
         </MotiBox>
       </ScrollView>
     </MotiBox>
   );
 }
 export default Root;
-
-const featured = {
-  image:
-    'https://www.limehome.com/wp-content/uploads/2022/07/limehome-haro-calle-de-la-vega-str-4A-one-bedroom-dining-room-view.jpg',
-};

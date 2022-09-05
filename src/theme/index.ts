@@ -4,8 +4,12 @@ import { TextStyle } from 'react-native';
 import { palette } from './palette';
 
 const colors = {
-  background: palette['orange-200'],
-  'decorative-one-surface': palette['grassGreen-500'],
+  'surface-primary': palette['orange-200'],
+  'surface-decorative-one': palette['grassGreen-500'],
+  'surface-decorative-two': palette['orange-1300'],
+  'text-on-dark': palette['orange-200'],
+  'text-on-light': palette['gray-4400'],
+  'text-decorative-one': palette['orange-1300'],
 };
 type Color = keyof typeof colors;
 
@@ -42,17 +46,62 @@ const textVariants = {
     fontFamily: 'Milkman_300Light',
     fontSize: 40,
   },
+  listingTitle: {
+    fontFamily: 'Milkman_300Light',
+    fontSize: 30,
+    color: 'text-on-light',
+  },
+  listingStreet: {
+    fontFamily: 'Gilmer_500Medium',
+    fontSize: 15,
+    color: 'text-on-light',
+  },
   description: {
     fontFamily: 'Gilmer_500Medium',
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 21,
   },
+  buttonLabelOnDarkSurface: {
+    fontFamily: 'Gilmer_500Medium',
+    fontSize: 12,
+    color: 'text-on-dark',
+    letterSpacing: 2,
+  },
+};
+
+const buttonVariants = {
+  defaults: {},
+  primary: {
+    backgroundColor: 'surface-decorative-one',
+    padding: 'm',
+    borderRadius: 10,
+    minWidth: 175,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  secondary: {
+    backgroundColor: 'surface-decorative-one',
+    padding: 'm',
+    borderRadius: 10,
+    minWidth: 175,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  decorative: {
+    backgroundColor: 'surface-decorative-two',
+    padding: 'm',
+    borderRadius: 10,
+    minWidth: 175,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 };
 
 const theme = createTheme({
   colors,
   spacing: {
+    xs: 4,
     s: 8,
     m: 16,
     l: 24,
@@ -68,7 +117,8 @@ const theme = createTheme({
     largeTablet: 1024,
   },
   textVariants,
+  buttonVariants,
 });
 
-export type Theme = typeof theme;
-export { theme };
+type Theme = typeof theme;
+export { theme, Theme };
