@@ -61,6 +61,7 @@ const textVariants = {
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 21,
+    color: 'text-on-light',
   },
   buttonLabelOnDarkSurface: {
     fontFamily: 'Gilmer_500Medium',
