@@ -6,7 +6,7 @@ import { Theme } from '../theme';
 import Box from '../theme/Box';
 import MotiBox from '../theme/MotiBox';
 import Text from '../theme/Text';
-import Touchable from '../theme/Touchable';
+import { Button } from '../theme/Touchable';
 
 const VIDEO_URL =
   'https://www.limehome.com/wp-content/uploads/2021/12/limehome_video_export_20.12_1.mp4';
@@ -55,9 +55,9 @@ export function ExploreMore() {
             paddingHorizontal="s"
             justifyContent="space-evenly"
           />
-          <Touchable variant="decorative" marginTop="l">
+          <Button variant="decorative" marginTop="m">
             <Text variant="buttonLabelOnDarkSurface">EXPLORE MORE</Text>
-          </Touchable>
+          </Button>
         </Box>
       </ImageBackground>
     </Box>

@@ -3,7 +3,7 @@ import { Image } from 'react-native';
 import Box from '../theme/Box';
 import MotiBox from '../theme/MotiBox';
 import Text from '../theme/Text';
-import Touchable from '../theme/Touchable';
+import { Button } from '../theme/Touchable';
 
 export function FeaturedLocations() {
   return (
@@ -36,9 +36,9 @@ export function FeaturedLocations() {
           </Box>
         ))}
       </MotiBox>
-      <Touchable variant="primary" marginTop="l">
+      <Button variant="primary" marginTop="l">
         <Text variant="buttonLabelOnDarkSurface">DISCOVER MORE</Text>
-      </Touchable>
+      </Button>
     </Box>
   );
 }

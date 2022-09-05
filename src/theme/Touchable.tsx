@@ -1,19 +1,47 @@
 import {
-  BoxProps,
-  createBox,
+  backgroundColor,
+  BackgroundColorProps,
+  border,
+  BorderProps,
+  composeRestyleFunctions,
   createRestyleComponent,
   createVariant,
+  layout,
+  LayoutProps,
+  spacing,
+  SpacingProps,
+  useRestyle,
   VariantProps,
 } from '@shopify/restyle';
-import { Pressable, PressableProps } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native';
+import { Bounceable, BounceableProps } from 'rn-bounceable';
 
 import { Theme } from '.';
 
-type TouchableProps = BoxProps<Theme> & VariantProps<Theme, 'buttonVariants'> & PressableProps;
+const restyleFunctions = composeRestyleFunctions([layout, border, spacing, backgroundColor]);
 
-const Touchable = createRestyleComponent<TouchableProps, Theme>(
-  [createVariant({ themeKey: 'buttonVariants' })],
-  createBox<Theme>(Pressable)
+type Props = SpacingProps<Theme> &
+  BorderProps<Theme> &
+  LayoutProps<Theme> &
+  BackgroundColorProps<Theme> &
+  BounceableProps;
+
+export const Touchable = ({ onPress, children, ...rest }: Props) => {
+  const props = useRestyle(restyleFunctions, rest);
+
+  return (
+    <Bounceable onPress={onPress} contentContainerStyle={props.style as StyleProp<ViewStyle>}>
+      {children}
+    </Bounceable>
+  );
+};
+
+const variant = createVariant<Theme>({
+  themeKey: 'buttonVariants',
+  defaults: {},
+});
+
+export const Button = createRestyleComponent<VariantProps<Theme, 'buttonVariants'> & Props, Theme>(
+  [variant],
+  Touchable
 );
-
-export default Touchable;

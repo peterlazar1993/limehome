@@ -82,7 +82,6 @@ const buttonVariants = {
     alignItems: 'center',
   },
   secondary: {
-    backgroundColor: 'surface-decorative-one',
     padding: 'm',
     borderRadius: 10,
     minWidth: 175,
