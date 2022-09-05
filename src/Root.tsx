@@ -1,4 +1,5 @@
 import { BackgroundColor } from '@bacons/expo-background-color';
+import { PlayfairDisplay_400Regular, useFonts } from '@expo-google-fonts/playfair-display';
 import { useTheme } from '@shopify/restyle';
 import { AnimatePresence, MotiView } from 'moti';
 import { useState } from 'react';
@@ -12,10 +13,15 @@ import { Theme } from './theme';
 function Root() {
   const { colors } = useTheme<Theme>();
   const [isAppReady, setIsAppReady] = useState(false);
+  const [fontsLoaded] = useFonts({
+    PlayfairDisplay_400Regular,
+  });
 
   useTimeout(function () {
     setIsAppReady(true);
   }, 3000);
+
+  const isReadyToShowHome = isAppReady && fontsLoaded;
 
   return (
     <SafeAreaView
@@ -25,7 +31,7 @@ function Root() {
       <BackgroundColor color={colors.background} />
 
       <AnimatePresence exitBeforeEnter>
-        {isAppReady ? (
+        {isReadyToShowHome ? (
           <MotiView
             key={2}
             style={{
