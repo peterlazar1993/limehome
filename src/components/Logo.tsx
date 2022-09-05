@@ -14,7 +14,7 @@ export function Logo() {
       borderRadius={200}
       aspectRatio={1}>
       <Image
-        source={require('../../assets/limehome.png')}
+        source={require('../../assets/images/limehome.png')}
         style={{ width: '80%', tintColor: colors.background, position: 'absolute' }}
         resizeMode="contain"
       />
