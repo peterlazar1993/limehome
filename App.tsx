@@ -2,7 +2,7 @@ import { ThemeProvider } from '@shopify/restyle';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import Root from './src/Root';
+import Root from './src/screens/Root';
 import { theme } from './src/theme';
 
 export default function App() {
