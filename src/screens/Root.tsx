@@ -8,7 +8,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { SplashScreen } from '../components/SplashScreen';
 import { useTimeout } from '../hooks/useTimeout';
 import { Theme } from '../theme';
-import { Locations } from './Locations';
+import { Router } from './Router';
 
 function Root() {
   const { colors } = useTheme<Theme>();
@@ -34,7 +34,7 @@ function Root() {
 
       <AnimatePresence exitBeforeEnter>
         {isReadyToShowHome ? (
-          <Locations />
+          <Router />
         ) : (
           <MotiView
             key={1}

@@ -1,11 +1,17 @@
+import { useNavigation } from '@react-navigation/native';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { Image } from 'react-native';
 
+import { RootStackParamList } from '../screens/Router';
 import Box from '../theme/Box';
 import MotiBox from '../theme/MotiBox';
 import Text from '../theme/Text';
 import { Button } from '../theme/Touchable';
 
+type NavigationProp = NativeStackScreenProps<RootStackParamList, 'Home'>['navigation'];
+
 export function FeaturedLocations() {
+  const navigation = useNavigation<NavigationProp>();
   return (
     <Box flex={1} alignItems="center">
       <Text variant="sectionTitle" color="surface-decorative-one">
@@ -36,7 +42,12 @@ export function FeaturedLocations() {
           </Box>
         ))}
       </MotiBox>
-      <Button variant="primary" marginTop="l">
+      <Button
+        variant="primary"
+        marginTop="l"
+        onPress={() => {
+          navigation.navigate('Locations');
+        }}>
         <Text variant="buttonLabelOnDarkSurface">DISCOVER MORE</Text>
       </Button>
     </Box>
