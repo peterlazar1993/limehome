@@ -5,6 +5,7 @@ import { useTheme } from '@shopify/restyle';
 import { Theme } from '../theme';
 import { Home } from './Home';
 import { Locations } from './Locations';
+import { Playground } from './Playground';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -14,7 +15,7 @@ export const Router = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Home"
+        initialRouteName="Playground"
         screenOptions={{
           headerShown: false,
           contentStyle: { backgroundColor: colors['surface-primary'] },
@@ -22,6 +23,11 @@ export const Router = () => {
         }}>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Locations" component={Locations} />
+        <Stack.Screen
+          options={{ contentStyle: { backgroundColor: 'white' } }}
+          name="Playground"
+          component={Playground}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -30,4 +36,5 @@ export const Router = () => {
 export type RootStackParamList = {
   Home: undefined;
   Locations: undefined;
+  Playground: undefined;
 };

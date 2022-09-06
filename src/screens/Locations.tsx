@@ -2,6 +2,7 @@ import { FlashList, ListRenderItem } from '@shopify/flash-list';
 import { useTheme } from '@shopify/restyle';
 import { Image, StyleSheet, useWindowDimensions } from 'react-native';
 
+import { Separator } from '../components/Separator';
 import { getCitiesWithProperties, getImageForProperties } from '../services/citiesService';
 import { Theme } from '../theme';
 import Box from '../theme/Box';
@@ -60,8 +61,4 @@ const Header = () => {
       </Text>
     </Box>
   );
-};
-
-const Separator = () => {
-  return <Box marginTop="l" />;
 };

@@ -1,5 +1,5 @@
 import { createTheme } from '@shopify/restyle';
-import { TextStyle } from 'react-native';
+import { StyleSheet, TextStyle } from 'react-native';
 
 import { palette } from './palette';
 
@@ -10,6 +10,7 @@ const colors = {
   'text-on-dark': palette['orange-200'],
   'text-on-light': palette['gray-4400'],
   'text-decorative-one': palette['orange-1300'],
+  transparent: 'rgba(0,0,0,0)',
 };
 type Color = keyof typeof colors;
 
@@ -63,11 +64,6 @@ const textVariants = {
     color: 'text-on-light',
     lineHeight: 24,
   },
-  propertyCount: {
-    fontFamily: 'Gilmer_500Medium',
-    fontSize: 12,
-    color: 'text-on-light',
-  },
   listingStreet: {
     fontFamily: 'Gilmer_500Medium',
     fontSize: 15,
@@ -78,6 +74,11 @@ const textVariants = {
     fontSize: 15,
     textAlign: 'center',
     lineHeight: 21,
+    color: 'text-on-light',
+  },
+  propertyCount: {
+    fontFamily: 'Gilmer_500Medium',
+    fontSize: 12,
     color: 'text-on-light',
   },
   buttonLabelOnDarkSurface: {
@@ -102,6 +103,9 @@ const buttonVariants = {
     padding: 'm',
     borderRadius: 10,
     minWidth: 175,
+    borderWidth: StyleSheet.hairlineWidth * 2,
+    borderColor: 'surface-decorative-one',
+    color: 'transparent',
     justifyContent: 'center',
     alignItems: 'center',
   },
