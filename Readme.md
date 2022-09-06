@@ -2,6 +2,8 @@
 
 This is a POC app for the limehome website.
 
+https://user-images.githubusercontent.com/4848554/188723664-b8ab74c9-5f13-4528-8867-b3ba9bc2010c.mp4
+
 ### Features
 - Animated Splashscreen
 - Mock Home Screen
@@ -28,6 +30,3 @@ Install the Expo Go app from [https://expo.dev/client](https://expo.dev/client)
 Expo Go URL for Android: [exp://u.expo.dev/update/d36ab723-5bea-4154-9503-0397010b8fcd](exp://u.expo.dev/update/d36ab723-5bea-4154-9503-0397010b8fcd)
 
 Expo Go URL for iOS: [exp://u.expo.dev/update/ddde8f6d-974d-4d61-95b2-5e574887547c](exp://u.expo.dev/update/ddde8f6d-974d-4d61-95b2-5e574887547c)
-
-
-https://user-images.githubusercontent.com/4848554/188723664-b8ab74c9-5f13-4528-8867-b3ba9bc2010c.mp4
