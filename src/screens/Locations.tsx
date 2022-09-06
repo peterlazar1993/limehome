@@ -1,15 +1,22 @@
 import { FlashList, ListRenderItem } from '@shopify/flash-list';
-import { Image, StyleSheet } from 'react-native';
+import { useTheme } from '@shopify/restyle';
+import { Image, StyleSheet, useWindowDimensions } from 'react-native';
 
 import { getCitiesWithProperties, getImageForProperties } from '../services/citiesService';
+import { Theme } from '../theme';
 import Box from '../theme/Box';
 import Text from '../theme/Text';
 
 export const Locations = () => {
   const citiesWithProperties = getCitiesWithProperties();
+  const { spacing } = useTheme<Theme>();
+  const windowWidth = useWindowDimensions().width;
+
+  const estimatedItemSize = (windowWidth - 2 * spacing.l) * (9 / 16) + 114;
 
   return (
     <FlashList
+      estimatedItemSize={estimatedItemSize}
       contentContainerStyle={{ paddingBottom: 16 }}
       data={citiesWithProperties}
       renderItem={renderItem}
