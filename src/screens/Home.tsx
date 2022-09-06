@@ -1,6 +1,7 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useTheme } from '@shopify/restyle';
-import { Pressable, ScrollView } from 'react-native';
+import { MotiPressable } from 'moti/interactions';
+import { ScrollView } from 'react-native';
 
 import { ExploreMore } from '../components/ExploreMore';
 import { FeaturedLocations } from '../components/FeaturedLocations';
@@ -19,24 +20,22 @@ export function Home({ navigation }: ScreenProps) {
       <ScrollView
         style={{ flex: 1 }}
         contentContainerStyle={{ alignItems: 'center', paddingBottom: spacing.m }}>
-        <Pressable onLongPress={() => navigation.push('Playground')}>
-          <MotiBox
-            width={70}
-            aspectRatio={1}
-            marginVertical="s"
-            from={{ scale: 0.5, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            exit={{
-              scale: 0.5,
-              opacity: 0,
-            }}
-            transition={{
-              duration: 300,
-              type: 'timing',
-            }}>
-            <Logo />
-          </MotiBox>
-        </Pressable>
+        <MotiPressable
+          key={3}
+          onLongPress={() => navigation.push('Playground')}
+          from={{ scale: 0.5, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          exit={{
+            scale: 0.5,
+            opacity: 0,
+          }}
+          transition={{
+            duration: 300,
+            type: 'timing',
+          }}
+          style={{ width: 70, aspectRatio: 1, marginVertical: spacing.s }}>
+          <Logo />
+        </MotiPressable>
         <MotiBox
           delay={350}
           from={{ opacity: 0 }}
