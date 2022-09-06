@@ -1,6 +1,6 @@
 import { useTheme } from '@shopify/restyle';
 import { ResizeMode, Video } from 'expo-av';
-import { ImageBackground } from 'react-native';
+import { Alert, ImageBackground } from 'react-native';
 
 import { Theme } from '../theme';
 import Box from '../theme/Box';
@@ -55,7 +55,12 @@ export function ExploreMore() {
             paddingHorizontal="s"
             justifyContent="space-evenly"
           />
-          <Button variant="decorative" marginTop="m">
+          <Button
+            variant="decorative"
+            marginTop="m"
+            onPress={() => {
+              Alert.alert('No Op');
+            }}>
             <Text variant="buttonLabelOnDarkSurface">EXPLORE MORE</Text>
           </Button>
         </Box>
