@@ -1,6 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useTheme } from '@shopify/restyle';
+import { Platform } from 'react-native';
 
 import { Theme } from '../theme';
 import { Home } from './Home';
@@ -19,7 +20,7 @@ export const Router = () => {
         screenOptions={{
           headerShown: false,
           contentStyle: { backgroundColor: colors['surface-primary'] },
-          animation: 'fade_from_bottom',
+          animation: Platform.select({ android: 'fade_from_bottom', ios: 'default' }),
         }}>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Locations" component={Locations} />
