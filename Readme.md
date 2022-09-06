@@ -14,6 +14,7 @@ This is a POC app for the limehome website.
 
 
 ### Design System API
+Long Press the `limehome` logo in the preview app to open the Playground
 
 Take a look at [Playground](https://github.com/peterlazar1993/limehome/blob/main/src/screens/Playground.tsx) to get an idea of the API
 
