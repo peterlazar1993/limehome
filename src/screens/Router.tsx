@@ -15,7 +15,7 @@ export const Router = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Playground"
+        initialRouteName="Home"
         screenOptions={{
           headerShown: false,
           contentStyle: { backgroundColor: colors['surface-primary'] },

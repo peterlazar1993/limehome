@@ -46,7 +46,7 @@ export function FeaturedLocations() {
         variant="primary"
         marginTop="l"
         onPress={() => {
-          navigation.navigate('Locations');
+          navigation.push('Locations');
         }}>
         <Text variant="buttonLabelOnDarkSurface">DISCOVER MORE</Text>
       </Button>
