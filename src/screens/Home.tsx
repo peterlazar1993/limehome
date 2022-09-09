@@ -1,4 +1,3 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useTheme } from '@shopify/restyle';
 import { MotiPressable } from 'moti/interactions';
 import { ScrollView } from 'react-native';
@@ -6,23 +5,21 @@ import { ScrollView } from 'react-native';
 import { ExploreMore } from '../components/ExploreMore';
 import { FeaturedLocations } from '../components/FeaturedLocations';
 import { Logo } from '../components/Logo';
+import { HomeTabScreenProps } from '../navigation/types';
 import { Theme } from '../theme';
 import Box from '../theme/Box';
 import MotiBox from '../theme/MotiBox';
-import { RootStackParamList } from './Router';
 
-type ScreenProps = NativeStackScreenProps<RootStackParamList, 'Home'>;
-
-export function Home({ navigation }: ScreenProps) {
+export function Home({ navigation }: HomeTabScreenProps<'Search'>) {
   const { spacing } = useTheme<Theme>();
   return (
-    <MotiBox key={2} flex={1} paddingTop="s">
+    <MotiBox key={2} flex={1} paddingTop="s" bg="surface-primary">
       <ScrollView
         style={{ flex: 1 }}
         contentContainerStyle={{ alignItems: 'center', paddingBottom: spacing.m }}>
         <MotiPressable
           key={3}
-          onLongPress={() => navigation.push('Playground')}
+          onLongPress={() => navigation.navigate('Map')}
           from={{ scale: 0.5, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{
