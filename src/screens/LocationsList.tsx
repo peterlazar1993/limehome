@@ -1,15 +1,16 @@
+import { NativeStackScreenProps } from '@react-navigation/native-stack/lib/typescript/src/types';
 import { FlashList, ListRenderItem } from '@shopify/flash-list';
 import { useTheme } from '@shopify/restyle';
 import { Image, Pressable, StyleSheet, useWindowDimensions } from 'react-native';
 
 import { Separator } from '../components/Separator';
-import { HomeTabScreenProps } from '../navigation/types';
+import { LocationsStackParamList } from '../navigation/types';
 import { getCitiesWithProperties, getImageForProperties } from '../services/citiesService';
 import { Theme } from '../theme';
 import Box from '../theme/Box';
 import Text from '../theme/Text';
 
-export const LocationsList = ({ navigation }: HomeTabScreenProps<'Locations'>) => {
+export const LocationsList = ({ navigation }: NativeStackScreenProps<LocationsStackParamList>) => {
   const citiesWithProperties = getCitiesWithProperties();
   const { spacing, colors } = useTheme<Theme>();
   const windowWidth = useWindowDimensions().width;

@@ -9,6 +9,7 @@ export type RootStackParamList = {
 export type LocationsStackParamList = {
   List: undefined;
   Map: { city_id: number };
+  PropertyDetails: { property_id: number };
 };
 
 export type RootStackScreenProps<T extends keyof RootStackParamList> = NativeStackScreenProps<
