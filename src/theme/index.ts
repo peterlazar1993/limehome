@@ -78,6 +78,16 @@ const textVariants = {
     lineHeight: 21,
     color: 'text-on-light',
   },
+  body14Regular: {
+    fontFamily: 'Gilmer_300Light',
+    fontSize: 14,
+    lineHeight: 20,
+  },
+  body14SemiBold: {
+    fontFamily: 'Gilmer_500Medium',
+    fontSize: 14,
+    lineHeight: 20,
+  },
   propertyCount: {
     fontFamily: 'Gilmer_500Medium',
     fontSize: 12,
@@ -112,7 +122,7 @@ const buttonVariants = {
     alignItems: 'center',
   },
   decorative: {
-    backgroundColor: 'surface-decorative-two',
+    backgroundColor: 'surface-secondary',
     padding: 'm',
     borderRadius: 10,
     minWidth: 175,
