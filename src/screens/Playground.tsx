@@ -97,9 +97,9 @@ function Colors() {
         </Text>
       </Box>
       <Separator />
-      <Box padding="l" bg="surface-decorative-two">
+      <Box padding="l" bg="surface-secondary">
         <Text variant="subheading" color="text-on-dark">
-          surface-decorative-two
+          surface-secondary
         </Text>
       </Box>
       <Separator />
@@ -107,15 +107,15 @@ function Colors() {
         text-on-light
       </Text>
       <Separator />
-      <Text variant="subheading" color="text-decorative-one" padding="l">
-        text-decorative-one
-      </Text>
-      <Separator />
-      <Box padding="l" bg="surface-decorative-one">
+      <Box padding="l" bg="surface-secondary">
         <Text variant="subheading" color="text-on-dark">
           text-on-dark
         </Text>
       </Box>
+      <Separator />
+      <Text variant="subheading" color="text-decorative-one" padding="l">
+        text-decorative-one
+      </Text>
       <Separator />
     </Box>
   );

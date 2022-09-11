@@ -3,7 +3,12 @@ import type { CompositeScreenProps, NavigatorScreenParams } from '@react-navigat
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 export type RootStackParamList = {
-  Home: NavigatorScreenParams<HomeTabParamList>;
+  Root: NavigatorScreenParams<HomeTabParamList>;
+};
+
+export type LocationsStackParamList = {
+  List: undefined;
+  Map: { city_id: number };
 };
 
 export type RootStackScreenProps<T extends keyof RootStackParamList> = NativeStackScreenProps<
@@ -12,8 +17,8 @@ export type RootStackScreenProps<T extends keyof RootStackParamList> = NativeSta
 >;
 
 export type HomeTabParamList = {
-  Search: undefined;
-  Map: undefined;
+  Home: undefined;
+  Locations: undefined;
   Saved: undefined;
   Profile: undefined;
 };

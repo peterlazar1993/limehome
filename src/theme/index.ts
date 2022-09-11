@@ -5,8 +5,10 @@ import { palette } from './palette';
 
 const colors = {
   'surface-primary': palette['orange-200'],
+  'surface-secondary': palette['orange-1300'],
   'surface-decorative-one': palette['grassGreen-500'],
-  'surface-decorative-two': palette['orange-1300'],
+  'surface-decorative-two': palette['gray-4400'],
+  'surface-decorative-two-lighter': palette['gray-3900'],
   'text-on-dark': palette['orange-200'],
   'text-on-light': palette['gray-4400'],
   'text-decorative-one': palette['orange-1300'],

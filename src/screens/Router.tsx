@@ -4,13 +4,15 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useTheme } from '@shopify/restyle';
 import { Platform } from 'react-native';
 
-import { HomeTabParamList, RootStackParamList } from '../navigation/types';
+import { HomeTabParamList, LocationsStackParamList, RootStackParamList } from '../navigation/types';
 import { Theme } from '../theme';
 import { Home } from './Home';
-import { Locations } from './Locations';
+import { LocationsList } from './LocationsList';
+import { LocationsMap } from './LocationsMap';
 import { Playground } from './Playground';
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
+const LocationsStack = createNativeStackNavigator<LocationsStackParamList>();
 const HomeTab = createBottomTabNavigator<HomeTabParamList>();
 
 export const Router = () => {
@@ -19,13 +21,13 @@ export const Router = () => {
   return (
     <NavigationContainer>
       <RootStack.Navigator
-        initialRouteName="Home"
+        initialRouteName="Root"
         screenOptions={{
           headerShown: false,
           contentStyle: { backgroundColor: colors['surface-primary'] },
           animation: Platform.select({ android: 'fade_from_bottom', ios: 'default' }),
         }}>
-        <RootStack.Screen name="Home" component={HomeTabNavigator} />
+        <RootStack.Screen name="Root" component={HomeTabNavigator} />
       </RootStack.Navigator>
     </NavigationContainer>
   );
@@ -37,10 +39,23 @@ function HomeTabNavigator() {
       screenOptions={{
         headerShown: false,
       }}>
-      <HomeTab.Screen name="Search" component={Home} />
-      <HomeTab.Screen name="Map" component={Locations} />
+      <HomeTab.Screen name="Home" component={Home} />
+      <HomeTab.Screen name="Locations" component={LocationsStackNavigator} />
       <HomeTab.Screen name="Saved" component={Playground} />
       <HomeTab.Screen name="Profile" component={Playground} />
     </HomeTab.Navigator>
+  );
+}
+
+function LocationsStackNavigator() {
+  return (
+    <LocationsStack.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}
+      initialRouteName="List">
+      <LocationsStack.Screen name="List" component={LocationsList} />
+      <LocationsStack.Screen name="Map" component={LocationsMap} />
+    </LocationsStack.Navigator>
   );
 }

@@ -10,7 +10,7 @@ import { Theme } from '../theme';
 import Box from '../theme/Box';
 import MotiBox from '../theme/MotiBox';
 
-export function Home({ navigation }: HomeTabScreenProps<'Search'>) {
+export function Home({ navigation }: HomeTabScreenProps<'Home'>) {
   const { spacing } = useTheme<Theme>();
   return (
     <MotiBox key={2} flex={1} paddingTop="s" bg="surface-primary">
@@ -19,7 +19,7 @@ export function Home({ navigation }: HomeTabScreenProps<'Search'>) {
         contentContainerStyle={{ alignItems: 'center', paddingBottom: spacing.m }}>
         <MotiPressable
           key={3}
-          onLongPress={() => navigation.navigate('Map')}
+          onLongPress={() => navigation.navigate('Locations')}
           from={{ scale: 0.5, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{

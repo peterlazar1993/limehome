@@ -8,7 +8,7 @@ import Text from '../theme/Text';
 import { Button } from '../theme/Touchable';
 
 export function FeaturedLocations() {
-  const navigation = useNavigation<HomeTabScreenProps<'Search'>['navigation']>();
+  const navigation = useNavigation<HomeTabScreenProps<'Home'>['navigation']>();
   return (
     <Box flex={1} alignItems="center">
       <Text variant="sectionTitle" color="surface-decorative-one">
@@ -43,7 +43,7 @@ export function FeaturedLocations() {
         variant="primary"
         marginTop="l"
         onPress={() => {
-          navigation.navigate('Map');
+          navigation.navigate('Locations');
         }}>
         <Text variant="buttonLabelOnDarkSurface">DISCOVER MORE</Text>
       </Button>
