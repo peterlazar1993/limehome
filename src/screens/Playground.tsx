@@ -8,10 +8,12 @@ import Text from '../theme/Text';
 import { Button } from '../theme/Touchable';
 
 export const Playground = () => {
-  const { spacing } = useTheme<Theme>();
+  const { spacing, colors } = useTheme<Theme>();
 
   return (
-    <ScrollView contentContainerStyle={{ paddingHorizontal: spacing.m }}>
+    <ScrollView
+      contentContainerStyle={{ paddingHorizontal: spacing.m }}
+      style={{ backgroundColor: colors['surface-primary'] }}>
       <Typography />
       <Colors />
       <Buttons />
