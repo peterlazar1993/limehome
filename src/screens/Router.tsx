@@ -1,3 +1,4 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -34,15 +35,59 @@ export const Router = () => {
 };
 
 function HomeTabNavigator() {
+  const { colors } = useTheme<Theme>();
   return (
     <HomeTab.Navigator
       screenOptions={{
+        tabBarActiveTintColor: 'white',
+        tabBarInactiveTintColor: 'white',
         headerShown: false,
+        tabBarStyle: {
+          borderRadius: 10,
+          backgroundColor: colors['surface-decorative-one'],
+          height: 60,
+        },
       }}>
-      <HomeTab.Screen name="Home" component={Home} />
-      <HomeTab.Screen name="Locations" component={LocationsStackNavigator} />
-      <HomeTab.Screen name="Saved" component={Playground} />
-      <HomeTab.Screen name="Profile" component={Playground} />
+      <HomeTab.Screen
+        name="Home"
+        component={Home}
+        options={{
+          tabBarIcon: ({ focused, color, size }) => (
+            <Ionicons name={focused ? 'md-home' : 'md-home-outline'} size={size} color={color} />
+          ),
+        }}
+      />
+      <HomeTab.Screen
+        name="Locations"
+        component={LocationsStackNavigator}
+        options={{
+          tabBarIcon: ({ focused, color, size }) => (
+            <Ionicons name={focused ? 'md-map' : 'md-map-outline'} size={size} color={color} />
+          ),
+        }}
+      />
+      <HomeTab.Screen
+        name="Saved"
+        component={Playground}
+        options={{
+          tabBarIcon: ({ focused, color, size }) => (
+            <Ionicons name={focused ? 'md-heart' : 'md-heart-outline'} size={size} color={color} />
+          ),
+        }}
+      />
+      <HomeTab.Screen
+        name="Profile"
+        component={Playground}
+        options={{
+          tabBarIcon: ({ focused, color, size }) => (
+            <Ionicons
+              name={focused ? 'md-person-circle' : 'md-person-circle-outline'}
+              size={size}
+              color={color}
+            />
+          ),
+        }}
+      />
     </HomeTab.Navigator>
   );
 }
