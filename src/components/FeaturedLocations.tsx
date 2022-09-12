@@ -1,8 +1,10 @@
 import { useNavigation } from '@react-navigation/native';
-import { Image } from 'react-native';
+import { useTheme } from '@shopify/restyle';
+import { Image, Pressable } from 'react-native';
 
 import { HomeTabScreenProps } from '../navigation/types';
 import { getImageUrl } from '../services/citiesService';
+import { Theme } from '../theme';
 import Box from '../theme/Box';
 import MotiBox from '../theme/MotiBox';
 import Text from '../theme/Text';
@@ -10,6 +12,7 @@ import { Button } from '../theme/Touchable';
 
 export function FeaturedLocations() {
   const navigation = useNavigation<HomeTabScreenProps<'Home'>['navigation']>();
+  const { spacing } = useTheme<Theme>();
   return (
     <Box flex={1} alignItems="center">
       <Text variant="sectionTitle" color="surface-decorative-one">
@@ -26,19 +29,29 @@ export function FeaturedLocations() {
         flexDirection="row"
         paddingHorizontal="s"
         justifyContent="space-evenly">
-        {featuredListings.map((listing) => (
-          <Box marginVertical="s" width="45%" key={listing.listing_street.en}>
-            <Image
-              source={{ uri: getImageUrl(listing.image, 'THUMBNAIL_SMALL') }}
-              style={{ width: undefined, aspectRatio: 1, borderRadius: 8 }}
-              resizeMode="cover"
-            />
-            <Text variant="listingTitle" marginTop="xs">
-              {listing.listing_title.en}
-            </Text>
-            <Text variant="listingStreet">{listing.listing_street.en}</Text>
-          </Box>
-        ))}
+        {featuredListings.map((listing) => {
+          const imageUrl = getImageUrl(listing.image, 'THUMBNAIL_SMALL');
+          return (
+            <Pressable
+              key={listing.listing_street.en}
+              onPress={() =>
+                navigation.navigate('PropertyDetails', { property_id: listing.property_id })
+              }
+              style={{ width: '45%', marginVertical: spacing.s }}>
+              <Box>
+                <Image
+                  source={{ uri: imageUrl }}
+                  style={{ width: undefined, aspectRatio: 1, borderRadius: 8 }}
+                  resizeMode="cover"
+                />
+                <Text variant="listingTitle" marginTop="xs">
+                  {listing.listing_title.en}
+                </Text>
+                <Text variant="listingStreet">{listing.listing_street.en}</Text>
+              </Box>
+            </Pressable>
+          );
+        })}
       </MotiBox>
       <Button
         variant="primary"
@@ -54,6 +67,7 @@ export function FeaturedLocations() {
 
 const featuredListings = [
   {
+    property_id: 297,
     image:
       'https://www.limehome.com/wp-content/uploads/2022/07/limehome-haro-calle-de-la-vega-str-4A-one-bedroom-dining-room-view.jpg',
     country: {
@@ -78,6 +92,7 @@ const featuredListings = [
     },
   },
   {
+    property_id: 208,
     image:
       'https://www.limehome.com/wp-content/uploads/2022/05/limehome-frankfurt-am-main-gutleutstr-701-superior-suite-bedroom.jpg',
     country: {
@@ -101,6 +116,7 @@ const featuredListings = [
     },
   },
   {
+    property_id: 202,
     image:
       'https://www.limehome.com/wp-content/uploads/2022/06/limehome-hannover-bleichenstr-5-exterior-Two-Bedroom-Penthouse-Suite-XXL-with-sofa-bed-rooftop-terrace-502-terraceoverview.jpg',
     country: {
@@ -123,6 +139,7 @@ const featuredListings = [
     },
   },
   {
+    property_id: 214,
     image:
       'https://www.limehome.com/wp-content/uploads/2022/06/limehome-sevilla-TorcuatoLucaDeTena-str-rooftop-terrace.jpg',
     country: {
