@@ -9,6 +9,7 @@ const colors = {
   'surface-decorative-one': palette['grassGreen-500'],
   'surface-decorative-two': palette['gray-4400'],
   'surface-decorative-two-lighter': palette['gray-3900'],
+  'surface-decorative-three': '#C9CBAB',
   'text-on-dark': palette['orange-200'],
   'text-on-light': palette['gray-4400'],
   'text-decorative-one': palette['orange-1300'],
@@ -58,7 +59,7 @@ const textVariants = {
     fontFamily: 'Milkman_300Light',
     fontSize: 24,
     color: 'text-on-light',
-    letterSpacing: -0.5,
+    letterSpacing: 0,
   },
   subheading: {
     fontFamily: 'Milkman_300Light',
@@ -82,6 +83,11 @@ const textVariants = {
     fontFamily: 'Gilmer_300Light',
     fontSize: 14,
     lineHeight: 20,
+  },
+  body16Regular: {
+    fontFamily: 'Gilmer_300Light',
+    fontSize: 16,
+    lineHeight: 24,
   },
   body14SemiBold: {
     fontFamily: 'Gilmer_500Medium',

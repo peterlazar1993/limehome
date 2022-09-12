@@ -11,6 +11,7 @@ import { Home } from './Home';
 import { LocationsList } from './LocationsList';
 import { LocationsMap } from './LocationsMap';
 import { Playground } from './Playground';
+import { PropertyDetailsScreen } from './PropertyDetails';
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 const LocationsStack = createNativeStackNavigator<LocationsStackParamList>();
@@ -29,6 +30,7 @@ export const Router = () => {
           animation: Platform.select({ android: 'fade_from_bottom', ios: 'default' }),
         }}>
         <RootStack.Screen name="Root" component={HomeTabNavigator} />
+        <RootStack.Screen name="PropertyDetails" component={PropertyDetailsScreen} />
       </RootStack.Navigator>
     </NavigationContainer>
   );

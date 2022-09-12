@@ -3,13 +3,10 @@ import z from 'zod';
 
 import { fetchPropertiesForCity } from '../network/api';
 
-export const getQueryKeyForPropertiesForCityQuery = (city_id: number) => [
-  'propertiesForCity',
-  city_id,
-];
-
 export const usePropertiesForCityQuery = (city_id: number) =>
   useQuery(getQueryKeyForPropertiesForCityQuery(city_id), () => getPropertiesForCity({ city_id }));
+
+const getQueryKeyForPropertiesForCityQuery = (city_id: number) => ['propertiesForCity', city_id];
 
 const getPropertiesForCity = ({ city_id }: { city_id: number }) =>
   fetchPropertiesForCity({ city_id }).then((r) => {
@@ -21,7 +18,7 @@ const getPropertiesForCity = ({ city_id }: { city_id: number }) =>
     }
   });
 
-const APIResponseBase = z.object({ message: z.string(), success: z.boolean() });
+export const APIResponseBase = z.object({ message: z.string(), success: z.boolean() });
 
 const PropertiesForCity = APIResponseBase.extend({
   payload: z.array(
