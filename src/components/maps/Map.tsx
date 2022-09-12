@@ -1,3 +1,4 @@
+import { useIsFocused } from '@react-navigation/native';
 import { AnimatePresence } from 'moti';
 import { useState } from 'react';
 import MapView from 'react-native-maps';
@@ -13,6 +14,7 @@ export const Map = ({
 }: {
   data: NonNullable<ReturnType<typeof usePropertiesForCityQuery>['data']>;
 }) => {
+  const isFocused = useIsFocused();
   const [selectedPropertyId, setSelectedPropertyId] = useState<number>();
   const initialRegion = {
     latitude: data[0].location.lat,
@@ -25,19 +27,21 @@ export const Map = ({
 
   return (
     <Box flex={1}>
-      <MapView style={{ flex: 1 }} initialRegion={initialRegion} toolbarEnabled={false}>
-        {data.map((property, index) => {
-          const isPropertySelected = property.id === selectedPropertyId;
-          return (
-            <MemoizedPropertyMaker
-              key={property.id}
-              isPropertySelected={isPropertySelected}
-              property={property}
-              setSelectedPropertyId={setSelectedPropertyId}
-            />
-          );
-        })}
-      </MapView>
+      {isFocused ? (
+        <MapView style={{ flex: 1 }} initialRegion={initialRegion} toolbarEnabled={false}>
+          {data.map((property, index) => {
+            const isPropertySelected = property.id === selectedPropertyId;
+            return (
+              <MemoizedPropertyMaker
+                key={property.id}
+                isPropertySelected={isPropertySelected}
+                property={property}
+                setSelectedPropertyId={setSelectedPropertyId}
+              />
+            );
+          })}
+        </MapView>
+      ) : null}
       <AnimatePresence>
         {selectedProperty ? (
           <MotiBox
