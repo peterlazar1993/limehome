@@ -1,3 +1,4 @@
+import { useIsFocused } from '@react-navigation/native';
 import { useTheme } from '@shopify/restyle';
 import { ResizeMode, Video } from 'expo-av';
 import { Alert, ImageBackground } from 'react-native';
@@ -15,6 +16,7 @@ const BACKGROUND_IMAGE_URL =
 
 export function ExploreMore() {
   const { spacing } = useTheme<Theme>();
+  const isFocused = useIsFocused();
   return (
     <Box
       borderRadius={20}
@@ -29,21 +31,23 @@ export function ExploreMore() {
           <Text variant="sectionTitle" color="text-decorative-one">
             explore us
           </Text>
-          <Video
-            source={{
-              uri: VIDEO_URL,
-            }}
-            style={{
-              width: '94%',
-              aspectRatio: 16 / 9,
-              borderRadius: 8,
-              marginTop: spacing.l,
-              marginBottom: spacing.m,
-            }}
-            resizeMode={ResizeMode.CONTAIN}
-            isLooping
-            shouldPlay
-          />
+          {isFocused ? (
+            <Video
+              source={{
+                uri: VIDEO_URL,
+              }}
+              style={{
+                width: '94%',
+                aspectRatio: 16 / 9,
+                borderRadius: 8,
+                marginTop: spacing.l,
+                marginBottom: spacing.m,
+              }}
+              resizeMode={ResizeMode.CONTAIN}
+              isLooping
+              shouldPlay
+            />
+          ) : null}
           <Text variant="description" marginTop="s" paddingHorizontal="l">
             limehome is designed to stay. We design a better place for those who want to change
             their way of travelling, living and working.
