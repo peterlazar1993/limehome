@@ -16,6 +16,11 @@ https://user-images.githubusercontent.com/4848554/189611589-3f6c3862-b99a-4a5c-b
 - Minimal Design System
 - Brand specific fonts
 
+### Run the App
+- Clone the repo
+- Install dependencies with `yarn install`
+- Start metro packager with `yarn start`
+
 
 ### Design System API
 Take a look at [Playground](https://github.com/peterlazar1993/limehome/blob/main/src/screens/Playground.tsx) to get an idea of the API
