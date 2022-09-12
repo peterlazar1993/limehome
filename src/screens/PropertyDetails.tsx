@@ -6,6 +6,7 @@ import { Image, Pressable, ScrollView, useWindowDimensions } from 'react-native'
 import Carousel from 'react-native-reanimated-carousel';
 
 import { LocationsStackParamList } from '../navigation/types';
+import { getImageUrl } from '../services/citiesService';
 import { usePropertyQuery } from '../services/propertyQuery';
 import { Theme } from '../theme';
 import Box from '../theme/Box';
@@ -49,7 +50,12 @@ const PropertyDetails = ({
                 flex: 1,
               }}>
               <Image
-                source={{ uri: item.url }}
+                source={{
+                  uri: getImageUrl(
+                    item.url,
+                    item.is_portrait ? 'PORTRAIT_MEDIUM' : 'LANDSCAPE_MEDIUM'
+                  ),
+                }}
                 style={{ height: undefined, width: undefined, flex: 1 }}
                 resizeMode="cover"
               />
@@ -58,9 +64,15 @@ const PropertyDetails = ({
         />
 
         <Box paddingHorizontal="m">
-          <Box flexDirection="row" justifyContent="space-between" alignItems="center">
-            <Box paddingTop="l">
-              <Text variant="heading">{property.name}</Text>
+          <Box
+            flexDirection="row"
+            justifyContent="space-between"
+            alignItems="flex-start"
+            marginTop="l">
+            <Box flex={1}>
+              <Text variant="heading" marginRight="s">
+                {property.name}
+              </Text>
               <Box flexDirection="row" alignItems="center" marginTop="s">
                 <Ionicons
                   name="md-location-outline"

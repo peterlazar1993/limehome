@@ -4,6 +4,7 @@ import { useTheme } from '@shopify/restyle';
 import { Image, Pressable } from 'react-native';
 
 import { LocationsStackParamList } from '../../navigation/types';
+import { getImageUrl } from '../../services/citiesService';
 import { usePropertiesForCityQuery } from '../../services/propertiesForCityQuery';
 import { Theme } from '../../theme';
 import Box from '../../theme/Box';
@@ -32,7 +33,7 @@ export const PropertyCard = ({
         borderColor="surface-decorative-two-lighter">
         <Box>
           <Image
-            source={{ uri: property.images[0].url }}
+            source={{ uri: getImageUrl(property.images[0].url, 'THUMBNAIL_SMALL') }}
             style={{ height: 120, aspectRatio: 1 }}
             resizeMode="cover"
           />

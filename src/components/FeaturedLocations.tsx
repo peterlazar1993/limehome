@@ -2,6 +2,7 @@ import { useNavigation } from '@react-navigation/native';
 import { Image } from 'react-native';
 
 import { HomeTabScreenProps } from '../navigation/types';
+import { getImageUrl } from '../services/citiesService';
 import Box from '../theme/Box';
 import MotiBox from '../theme/MotiBox';
 import Text from '../theme/Text';
@@ -28,7 +29,7 @@ export function FeaturedLocations() {
         {featuredListings.map((listing) => (
           <Box marginVertical="s" width="45%" key={listing.listing_street.en}>
             <Image
-              source={{ uri: listing.image }}
+              source={{ uri: getImageUrl(listing.image, 'THUMBNAIL_SMALL') }}
               style={{ width: undefined, aspectRatio: 1, borderRadius: 8 }}
               resizeMode="cover"
             />
