@@ -1,11 +1,10 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import React from 'react';
 
 import { Map } from '../components/maps/Map';
-import { LocationsStackParamList } from '../navigation/types';
+import { LocationsStackScreenProps } from '../navigation/types';
 import { usePropertiesForCityQuery } from '../services/propertiesForCityQuery';
 
-export const LocationsMap = ({ route }: NativeStackScreenProps<LocationsStackParamList>) => {
+export const LocationsMap = ({ route }: LocationsStackScreenProps<'Map'>) => {
   const city_id = route.params.city_id;
   const { data, isLoading, error } = usePropertiesForCityQuery(city_id);
 

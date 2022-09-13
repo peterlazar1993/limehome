@@ -1,9 +1,9 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { NavigationProp, useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 import { useTheme } from '@shopify/restyle';
 import { Image, Pressable } from 'react-native';
 
-import { LocationsStackParamList } from '../../navigation/types';
+import { LocationsStackScreenProps } from '../../navigation/types';
 import { getImageUrl } from '../../services/citiesService';
 import { usePropertiesForCityQuery } from '../../services/propertiesForCityQuery';
 import { Theme } from '../../theme';
@@ -18,7 +18,7 @@ export const PropertyCard = ({
   setSelectedPropertyId: (a: undefined) => void;
 }) => {
   const { colors } = useTheme<Theme>();
-  const navigation = useNavigation<NavigationProp<LocationsStackParamList>>();
+  const navigation = useNavigation<LocationsStackScreenProps<'Map'>['navigation']>();
   return (
     <Pressable
       onPress={() => {

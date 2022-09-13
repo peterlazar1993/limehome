@@ -1,11 +1,10 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { NavigationProp, useNavigation } from '@react-navigation/native';
-import { NativeStackScreenProps } from '@react-navigation/native-stack/lib/typescript/src/types';
+import { useNavigation } from '@react-navigation/native';
 import { useTheme } from '@shopify/restyle';
 import { Image, Pressable, ScrollView, useWindowDimensions } from 'react-native';
 import Carousel from 'react-native-reanimated-carousel';
 
-import { LocationsStackParamList } from '../navigation/types';
+import { RootStackScreenProps } from '../navigation/types';
 import { getImageUrl } from '../services/citiesService';
 import { usePropertyQuery } from '../services/propertyQuery';
 import { Theme } from '../theme';
@@ -13,10 +12,7 @@ import Box from '../theme/Box';
 import Text from '../theme/Text';
 import { Button } from '../theme/Touchable';
 
-export const PropertyDetailsScreen = ({
-  navigation,
-  route,
-}: NativeStackScreenProps<LocationsStackParamList>) => {
+export const PropertyDetailsScreen = ({ route }: RootStackScreenProps<'PropertyDetails'>) => {
   const property_id = route.params.property_id;
 
   const { data, isLoading, error } = usePropertyQuery(property_id);
@@ -33,7 +29,8 @@ const PropertyDetails = ({
 }: {
   property: NonNullable<ReturnType<typeof usePropertyQuery>['data']>;
 }) => {
-  const navigation = useNavigation<NavigationProp<LocationsStackParamList>>();
+  const navigation = useNavigation<RootStackScreenProps<'PropertyDetails'>['navigation']>();
+
   const { spacing, colors } = useTheme<Theme>();
   const windowWidth = useWindowDimensions().width;
   return (

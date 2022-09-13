@@ -19,7 +19,7 @@ export function Home({ navigation }: HomeTabScreenProps<'Home'>) {
         contentContainerStyle={{ alignItems: 'center', paddingBottom: spacing.m }}>
         <MotiPressable
           key={3}
-          onLongPress={() => navigation.navigate('Locations')}
+          onLongPress={() => navigation.jumpTo('Locations', { screen: 'List' })}
           from={{ scale: 0.5, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{

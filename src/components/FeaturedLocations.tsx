@@ -12,6 +12,9 @@ import { Button } from '../theme/Touchable';
 
 export function FeaturedLocations() {
   const navigation = useNavigation<HomeTabScreenProps<'Home'>['navigation']>();
+
+  const onPressDiscover = () => navigation.jumpTo('Locations', { screen: 'List' });
+
   const { spacing } = useTheme<Theme>();
   return (
     <Box flex={1} alignItems="center">
@@ -53,12 +56,7 @@ export function FeaturedLocations() {
           );
         })}
       </MotiBox>
-      <Button
-        variant="primary"
-        marginTop="l"
-        onPress={() => {
-          navigation.navigate('Locations');
-        }}>
+      <Button variant="primary" marginTop="l" onPress={onPressDiscover}>
         <Text variant="buttonLabelOnDarkSurface">DISCOVER MORE</Text>
       </Button>
     </Box>

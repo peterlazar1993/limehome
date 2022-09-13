@@ -12,22 +12,28 @@ export type LocationsStackParamList = {
   Map: { city_id: number };
 };
 
+export type HomeTabParamList = {
+  Home: undefined;
+  Locations: NavigatorScreenParams<LocationsStackParamList>;
+  Saved: undefined;
+  Profile: undefined;
+};
+
 export type RootStackScreenProps<T extends keyof RootStackParamList> = NativeStackScreenProps<
   RootStackParamList,
   T
 >;
 
-export type HomeTabParamList = {
-  Home: undefined;
-  Locations: undefined;
-  Saved: undefined;
-  Profile: undefined;
-};
-
 export type HomeTabScreenProps<T extends keyof HomeTabParamList> = CompositeScreenProps<
   BottomTabScreenProps<HomeTabParamList, T>,
   RootStackScreenProps<keyof RootStackParamList>
 >;
+
+export type LocationsStackScreenProps<T extends keyof LocationsStackParamList> =
+  CompositeScreenProps<
+    NativeStackScreenProps<LocationsStackParamList, T>,
+    HomeTabScreenProps<'Locations'>
+  >;
 
 declare global {
   namespace ReactNavigation {
